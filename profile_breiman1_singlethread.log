@@ -1,0 +1,2487 @@
+event: ns : Nanoseconds
+events: ns
+summary: 124158043500
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+fn=varAnd
+33 247469500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+cfn=<listcomp>
+calls=50 68
+33 5693886900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=delValues
+calls=62476 199
+33 63196300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=wrapper
+calls=37526 915
+33 32591889300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=100 0
+33 94900
+cfl=~
+cfn=<method 'random' of '_random.Random' objects>
+calls=74900 0
+33 68195600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+fn=<listcomp>
+68 64877500
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=49950 128
+68 5629009400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__init__:48
+48 7200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=2 52
+48 31800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=register
+52 111200
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=17 0
+52 16200
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=17 0
+52 14700
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=17 0
+52 18000
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=16 0
+52 14000
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=16 0
+52 15100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=decorate
+100 19700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=4 52
+100 41900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=decorator
+calls=4 914
+100 121300
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=4 0
+100 3900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__init__:172
+172 965533200
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=350924 0
+172 3584082400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=350924 0
+172 305515700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=getValues
+184 71125200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=setValues
+187 140821600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=delValues
+199 63196300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=valid
+225 87975800
+cfl=~
+cfn=<built-in method builtins.len>
+calls=51000 0
+225 41513000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__gt__
+233 446476000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__le__
+calls=250799 239
+233 258868600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__le__
+239 258868600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__lt__
+242 399580900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__deepcopy__
+251 386494200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=174962 160
+251 3137980500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+fn=create
+96 41500
+cfl=~
+cfn=<built-in method builtins.globals>
+calls=4 0
+96 3700
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+96 2100
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+96 1800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+fn=initType
+160 2046517800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__init__:172
+calls=350924 172
+160 4855131300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=175962 160
+160 3174721900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:53
+calls=175962 53
+160 239357300
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=175962 0
+160 172094400
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=526886 0
+160 495981300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:53
+53 239357300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__deepcopy__
+56 757936800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=174962 160
+56 4644610400
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=174962 128
+56 11355880400
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=174962 0
+56 190147700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__setitem__
+61 330116100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=115925 226
+61 98359000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=60158 0
+61 53580800
+cfl=~
+cfn=<built-in method builtins.len>
+calls=53991 0
+61 45738400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__str__
+88 12430269300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=format:203
+calls=1159269 203
+88 3348684000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=628398 226
+88 549864300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=format:230
+calls=628398 230
+88 712364500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=5312087 0
+88 4349588300
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=3524420 0
+88 2966378700
+cfl=~
+cfn=<method 'pop' of 'list' objects>
+calls=1787667 0
+88 1516895900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=height
+153 7260414900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=818929 226
+153 696772400
+cfl=~
+cfn=<built-in method builtins.max>
+calls=2337153 0
+153 2172397100
+cfl=~
+cfn=<method 'extend' of 'list' objects>
+calls=2337153 0
+153 1994633500
+cfl=~
+cfn=<method 'pop' of 'list' objects>
+calls=2337153 0
+153 1972571400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=root
+166 26975700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=searchSubtree
+172 194156900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=111170 226
+172 96210000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=format:203
+203 2060189400
+cfl=~
+cfn=<method 'format' of 'str' objects>
+calls=1159269 0
+203 1288494600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__eq__:206
+206 12600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:208
+calls=2 208
+206 2500
+cfl=~
+cfn=<built-in method builtins.all>
+calls=2 0
+206 15300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<genexpr>:208
+208 8900
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=4 0
+208 4000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:220
+220 9006900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=arity
+226 1442824100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=format:230
+230 658580800
+cfl=~
+cfn=<built-in method builtins.repr>
+calls=23510 0
+230 53783700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__eq__:233
+233 20500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:235
+calls=2 235
+233 3300
+cfl=~
+cfn=<built-in method builtins.all>
+calls=2 0
+233 15300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<genexpr>:235
+235 10100
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=4 0
+235 4100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:248
+248 10654000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:220
+calls=2993 220
+248 9006900
+cfl=symreg.py
+cfn=<lambda>:75
+calls=2993 75
+248 23605400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=terminalRatio
+422 1201200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=compile
+460 412598400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__str__
+calls=50914 88
+460 25874045000
+cfl=~
+cfn=<built-in method builtins.eval>
+calls=50914 0
+460 4567884700
+cfl=~
+cfn=<built-in method builtins.len>
+calls=50914 0
+460 44372100
+cfl=~
+cfn=<method 'format' of 'str' objects>
+calls=50914 0
+460 110820100
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=50914 0
+460 1059786500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<genexpr>:475
+475 481534600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genFull
+517 10471800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=generate
+calls=4635 587
+517 425655100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=condition:530
+530 14765700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genGrow
+537 1016400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=generate
+calls=496 587
+537 52084100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=condition:550
+550 3833200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=terminalRatio
+calls=1076 422
+550 1201200
+cfl=~
+cfn=<method 'random' of '_random.Random' objects>
+calls=1076 0
+550 953100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genHalfAndHalf
+560 3093000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genFull
+calls=504 517
+560 114153200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genGrow
+calls=496 537
+560 53100500
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=1000 285
+560 9683300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=generate
+587 135563800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=886 248
+587 13082300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=condition:530
+calls=16523 530
+587 14765700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=condition:550
+calls=1941 550
+587 5987500
+cfl=/usr/lib/python3.8/inspect.py
+cfn=isclass
+calls=9638 72
+587 26276400
+cfl=/usr/lib/python3.8/random.py
+cfn=randint
+calls=5131 244
+587 48195200
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=18464 285
+587 170056400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=23595 0
+587 19973100
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=31797 0
+587 27610700
+cfl=~
+cfn=<method 'pop' of 'list' objects>
+calls=18464 0
+587 16228100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=cxOnePoint
+640 403073700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=49860 61
+640 455488900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=root
+calls=24930 166
+640 26975700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=searchSubtree
+calls=49860 172
+640 264577400
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=74790 285
+640 700880400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=124681 0
+640 105520300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutUniform
+738 32360100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=4131 61
+738 37890400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=searchSubtree
+calls=4131 172
+738 25789500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genFull
+calls=4131 517
+738 321973700
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=4131 200
+738 32898300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=4131 0
+738 3796700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutNodeReplacement
+755 38541800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=4222 61
+755 20832900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=1753 226
+755 1618400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=162 248
+755 2494500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:775
+calls=2469 775
+755 4428100
+cfl=/usr/lib/python3.8/inspect.py
+cfn=isclass
+calls=1753 72
+755 4943100
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=4222 200
+755 34683600
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=4222 285
+755 40836700
+cfl=~
+cfn=<built-in method builtins.len>
+calls=8447 0
+755 7420500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:775
+775 4428100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutEphemeral
+781 21733500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=1945 61
+781 13582100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=1945 248
+781 27689500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:795
+calls=4220 795
+781 265943800
+cfl=~
+cfn=<built-in method builtins.len>
+calls=4220 0
+781 3811300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:795
+795 137156400
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=152945 0
+795 128787400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=staticLimit
+885 4100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=decorator
+914 18400
+cfl=/usr/lib/python3.8/functools.py
+cfn=update_wrapper
+calls=4 33
+914 97500
+cfl=/usr/lib/python3.8/functools.py
+cfn=wraps
+calls=4 63
+914 5400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=wrapper
+915 463733500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=height
+calls=62476 153
+915 14096789300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=cxOnePoint
+calls=24950 640
+915 1956516400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=wrapper
+calls=37526 915
+915 24939423300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:917
+calls=75052 917
+915 14439473400
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=9863 285
+915 101308100
+cfl=symreg.py
+cfn=mutOperator
+calls=12576 151
+915 1480062700
+cfl=~
+cfn=<built-in method builtins.len>
+calls=62476 0
+915 54005900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:917
+917 239276700
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=124952 128
+917 14200196700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=initRepeat
+3 911000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=<genexpr>
+calls=1001 25
+3 211768400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=<genexpr>
+25 1899900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=initIterate
+calls=1000 27
+25 209868500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=initIterate
+27 3347300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=1000 160
+27 26491200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genHalfAndHalf
+calls=1000 560
+27 180030000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selRandom
+12 106162600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=<listcomp>
+calls=49950 24
+12 2257696000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=<listcomp>
+24 289795100
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=249750 285
+24 1967900900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selBest
+27 562300
+cfl=~
+cfn=<built-in method builtins.sorted>
+calls=50 0
+27 788193300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selTournament
+51 151997400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selRandom
+calls=49950 12
+51 2363858600
+cfl=~
+cfn=<built-in method builtins.max>
+calls=49950 0
+51 844140900
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=49950 0
+51 42821900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:179
+179 3900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=register:184
+184 17400
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=8 0
+184 6800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=compile:199
+199 86929000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=<genexpr>
+calls=102102 205
+199 382132200
+cfl=<__array_function__ internals>
+cfn=amax
+calls=102 2
+199 15958400
+cfl=<__array_function__ internals>
+cfn=amin
+calls=102 2
+199 16182300
+cfl=<__array_function__ internals>
+cfn=mean
+calls=102 2
+199 19768000
+cfl=<__array_function__ internals>
+cfn=std
+calls=102 2
+199 21795200
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=102 0
+199 105700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=<genexpr>
+205 175376400
+cfl=symreg.py
+cfn=<lambda>:166
+calls=51000 166
+205 165495200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=51000 0
+205 41260600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=compile:232
+232 3081000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=compile:199
+calls=102 199
+232 542870800
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=51 0
+232 63900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=fields
+243 5100
+cfl=~
+cfn=<built-in method builtins.sorted>
+calls=1 0
+243 2600
+cfl=~
+cfn=<method 'keys' of 'dict' objects>
+calls=1 0
+243 1000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=register:247
+247 27000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=register:184
+calls=8 184
+247 24200
+cfl=~
+cfn=<method 'values' of 'dict' objects>
+calls=4 0
+247 3500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:275
+275 8200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=record
+335 2112600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:275
+calls=2 275
+335 4300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=record
+calls=102 335
+335 3122900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=<dictcomp>
+calls=153 342
+335 1669700
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=816 0
+335 697600
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=153 0
+335 143000
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=102 0
+335 106100
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=306 0
+335 269800
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=102 0
+335 138200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=<dictcomp>
+342 947100
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=816 0
+342 722600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:511
+511 2600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=update
+517 193830200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__gt__
+calls=50999 233
+517 142297100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=insert
+calls=60 545
+517 8858500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=remove
+calls=59 562
+517 717800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__getitem__
+calls=50999 578
+517 44930400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__iter__
+calls=59 581
+517 193200
+cfl=~
+cfn=<built-in method _operator.eq>
+calls=59 0
+517 152000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=101999 0
+517 431765400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=insert
+545 460500
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=60 128
+545 7933900
+cfl=~
+cfn=<built-in method _bisect.bisect_right>
+calls=60 0
+545 75300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=60 0
+545 274200
+cfl=~
+cfn=<method 'insert' of 'list' objects>
+calls=120 0
+545 114600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=remove
+562 219400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=118 0
+562 498400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__len__
+575 172536200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=102177 0
+575 85053900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__getitem__
+578 44930400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__iter__
+581 127800
+cfl=~
+cfn=<built-in method builtins.iter>
+calls=59 0
+581 65400
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=eaElite
+4 228345100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+cfn=varAnd
+calls=50 33
+4 38664732500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=setValues
+calls=50914 187
+4 140821600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selBest
+calls=50 27
+4 788755600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selTournament
+calls=50 51
+4 3402818800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=compile:232
+calls=51 232
+4 546015700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=fields
+calls=1 243
+4 8700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:275
+calls=1 275
+4 3900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=record
+calls=51 335
+4 5141300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=update
+calls=51 517
+4 822744600
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=<listcomp>:11
+calls=1 11
+4 3405100
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=<listcomp>:34
+calls=50 34
+4 177995400
+cfl=symreg.py
+cfn=evaluate
+calls=50914 106
+4 79163440300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=101 0
+4 100200
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=<listcomp>:11
+11 929300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=valid
+calls=1000 225
+11 2475800
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=<listcomp>:34
+34 50982400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=valid
+calls=50000 225
+34 127013000
+
+fl=/usr/lib/python3.8/_collections_abc.py
+fn=__subclasshook__
+302 321129800
+
+fl=/usr/lib/python3.8/abc.py
+fn=__instancecheck__
+96 705395500
+cfl=~
+cfn=<built-in method _abc._abc_instancecheck>
+calls=401730 0
+96 2383307100
+
+fl=/usr/lib/python3.8/abc.py
+fn=__subclasscheck__
+100 607999600
+cfl=~
+cfn=<built-in method _abc._abc_subclasscheck>
+calls=350930 0
+100 1026588300
+
+fl=/usr/lib/python3.8/copy.py
+fn=deepcopy
+128 4490395400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__deepcopy__
+calls=174962 251
+128 3524474700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__deepcopy__
+calls=174962 56
+128 16948575300
+cfl=/usr/lib/python3.8/copy.py
+cfn=_deepcopy_atomic
+calls=174962 182
+128 152422300
+cfl=/usr/lib/python3.8/copy.py
+cfn=_deepcopy_dict
+calls=174962 225
+128 9093698000
+cfl=/usr/lib/python3.8/copy.py
+cfn=_keep_alive
+calls=524886 241
+128 2426604900
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=349924 0
+128 326998900
+cfl=~
+cfn=<built-in method builtins.id>
+calls=699848 0
+128 605898700
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=349924 0
+128 309231300
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=1399696 0
+128 1214835800
+
+fl=/usr/lib/python3.8/copy.py
+fn=_deepcopy_atomic
+182 152422300
+
+fl=/usr/lib/python3.8/copy.py
+fn=_deepcopy_dict
+225 890316200
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=349924 128
+225 7900114900
+cfl=~
+cfn=<built-in method builtins.id>
+calls=174962 0
+225 150588300
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=174962 0
+225 152678600
+
+fl=/usr/lib/python3.8/copy.py
+fn=_keep_alive
+241 1514082900
+cfl=~
+cfn=<built-in method builtins.id>
+calls=699848 0
+241 601784000
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=349924 0
+241 310738000
+
+fl=/usr/lib/python3.8/functools.py
+fn=update_wrapper
+33 51100
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=28 0
+33 24600
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=20 0
+33 17700
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=4 0
+33 4100
+
+fl=/usr/lib/python3.8/functools.py
+fn=wraps
+63 5400
+
+fl=/usr/lib/python3.8/inspect.py
+fn=isclass
+72 20312500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=11391 0
+72 10907000
+
+fl=/usr/lib/python3.8/random.py
+fn=randrange
+200 31302800
+cfl=/usr/lib/python3.8/random.py
+cfn=_randbelow_with_getrandbits
+calls=13484 250
+200 74178500
+
+fl=/usr/lib/python3.8/random.py
+fn=randint
+244 10295800
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=5131 200
+244 37899400
+
+fl=/usr/lib/python3.8/random.py
+fn=_randbelow_with_getrandbits
+250 1071115300
+cfl=~
+cfn=<method 'bit_length' of 'int' objects>
+calls=371573 0
+250 315274200
+cfl=~
+cfn=<method 'getrandbits' of '_random.Random' objects>
+calls=459505 0
+250 397258000
+
+fl=/usr/lib/python3.8/random.py
+fn=choice
+285 977798300
+cfl=/usr/lib/python3.8/random.py
+cfn=_randbelow_with_getrandbits
+calls=358089 250
+285 1709469000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=358089 0
+285 303398500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+fn=asarray
+16 360784600
+cfl=~
+cfn=<built-in method numpy.array>
+calls=202474 0
+16 209094100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+fn=asanyarray
+88 179747100
+cfl=~
+cfn=<built-in method numpy.array>
+calls=101050 0
+88 130872600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_kind_name
+36 13991600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_name_includes_bit_suffix
+319 30119400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+cfn=issubdtype
+calls=12576 365
+319 137489900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_name_get
+333 76886600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_kind_name
+calls=12576 36
+333 13991600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_name_includes_bit_suffix
+calls=12576 319
+333 167609300
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=12576 0
+333 11877300
+cfl=~
+cfn=<method 'format' of 'str' objects>
+calls=12576 0
+333 17202600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_amax
+28 97159300
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=50688 0
+28 248543200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_amin
+32 102773700
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=50806 0
+32 391815700
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_all
+47 381771400
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=202356 0
+47 578334800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_count_reduce_items
+50 350538700
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=100948 0
+50 90763200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_clip_dep_is_scalar_nan
+63 518376700
+cfl=<__array_function__ internals>
+cfn=ndim
+calls=101376 2
+63 718818000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_clip_dep_is_byte_swapped
+73 204894000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=101376 0
+73 89726900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_clip_dep_invoke_with_casting
+78 584075800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_clip
+97 381110000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_clip_dep_is_scalar_nan
+calls=101376 63
+97 1237194700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_clip_dep_is_byte_swapped
+calls=101376 73
+97 294620900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_clip_dep_invoke_with_casting
+calls=50688 78
+97 584075800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_mean
+134 739501400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asanyarray
+calls=100846 88
+134 296514800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_count_reduce_items
+calls=100846 50
+134 440861800
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=100846 0
+134 103391000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=100846 0
+134 101585200
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=153 0
+134 152900
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=100846 0
+134 516971500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_var
+167 3372000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asanyarray
+calls=204 88
+167 14104900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_count_reduce_items
+calls=102 50
+167 440100
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=102 0
+167 106100
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=204 0
+167 200000
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=204 0
+167 191200
+cfl=~
+cfn=<built-in method builtins.max>
+calls=102 0
+167 153200
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=204 0
+167 978600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_std
+215 849400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_var
+calls=102 167
+215 19546100
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=102 0
+215 92500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=102 0
+215 95800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+fn=seterr
+39 11900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+cfn=geterr
+calls=1 139
+39 8000
+cfl=~
+cfn=<built-in method numpy.geterrobj>
+calls=1 0
+39 1200
+cfl=~
+cfn=<built-in method numpy.seterrobj>
+calls=1 0
+39 1800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+fn=geterr
+139 7100
+cfl=~
+cfn=<built-in method numpy.geterrobj>
+calls=1 0
+139 900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_wrapit
+42 728500
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asarray
+calls=118 16
+42 551400
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=118 0
+42 127800
+cfl=~
+cfn=<method 'repeat' of 'numpy.ndarray' objects>
+calls=118 0
+42 1514300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_wrapfunc
+55 150800700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapit
+calls=118 42
+55 2922000
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=50806 0
+55 54858900
+cfl=~
+cfn=<method 'clip' of 'numpy.ndarray' objects>
+calls=50688 0
+55 2615847000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_wrapreduction
+73 1393800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=<dictcomp>
+calls=204 74
+73 262200
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=204 0
+73 259900
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=204 0
+73 187400
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=204 0
+73 28073400
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=<dictcomp>
+74 262200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_repeat_dispatcher
+436 124500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=repeat
+440 294900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapfunc
+calls=118 55
+440 3547700
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_clip_dispatcher
+2017 46307600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=clip
+2021 137147400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapfunc
+calls=50688 55
+2021 2820880900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_amax_dispatcher
+2546 99500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=amax
+2551 281700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapreduction
+calls=102 73
+2551 15032200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_amin_dispatcher
+2671 103300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=amin
+2676 365400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapreduction
+calls=102 73
+2676 15144500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_ndim_dispatcher
+3033 90751100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=ndim
+3037 102247300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_mean_dispatcher
+3227 109100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=mean
+3231 895600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_mean
+calls=102 134
+3231 18040600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_std_dispatcher
+3338 100100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=std
+3343 537600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_std
+calls=102 215
+3343 20583800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/getlimits.py
+fn=__new__
+365 129533900
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=48961 0
+365 50696900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/multiarray.py
+fn=dot
+707 48050000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/multiarray.py
+fn=copyto
+1043 132075000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/numeric.py
+fn=isscalar
+1786 191696600
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=101720 0
+1786 347729800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+fn=issubclass_
+293 51135500
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=25152 0
+293 25235100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+fn=issubdtype
+365 50444800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+cfn=issubclass_
+calls=25152 293
+365 76370600
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=12576 0
+365 10674500
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/function_base.py
+fn=asarray_chkfinite
+435 630695900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asarray
+calls=100744 16
+435 283824100
+cfl=~
+cfn=<method 'all' of 'numpy.ndarray' objects>
+calls=100744 0
+435 666781700
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+fn=_getmaxmin
+358 260659100
+cfl=/usr/lib/python3.8/site-packages/numpy/core/getlimits.py
+cfn=__new__
+calls=48961 365
+358 180230800
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=48961 1017
+358 250259900
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+fn=_nan_to_num_dispatcher
+364 48100500
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+fn=nan_to_num
+368 751139800
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+cfn=_getmaxmin
+calls=48961 358
+368 691149800
+cfl=<__array_function__ internals>
+cfn=copyto
+calls=146883 2
+368 1156138800
+cfl=<__array_function__ internals>
+cfn=isneginf
+calls=48961 2
+368 812669500
+cfl=<__array_function__ internals>
+cfn=isposinf
+calls=48961 2
+368 983248900
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=99649 0
+368 94092000
+cfl=~
+cfn=<built-in method numpy.array>
+calls=50688 0
+368 62767400
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+fn=func:24
+24 242801200
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=_dispatcher
+calls=97922 70
+24 90489100
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+fn=func:50
+50 230585500
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=isposinf
+calls=48961 122
+50 409121300
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=isneginf
+calls=48961 191
+50 318870400
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+fn=_dispatcher
+70 90489100
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+fn=isposinf
+122 409121300
+
+fl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+fn=isneginf
+191 318870400
+
+fl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+fn=find_best_blas_type
+254 6600
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=2 0
+254 2200
+
+fl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+fn=_get_funcs
+319 12200
+cfl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+cfn=find_best_blas_type
+calls=1 254
+319 8800
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=2 0
+319 2500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+319 900
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=1 0
+319 1000
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+319 1100
+
+fl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+fn=getter
+372 223617200
+cfl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+cfn=get_blas_funcs
+calls=1 399
+372 29600
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=100744 0
+372 107960500
+
+fl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+fn=get_blas_funcs
+399 3100
+cfl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+cfn=_get_funcs
+calls=1 319
+399 26500
+
+fl=/usr/lib/python3.8/site-packages/scipy/linalg/misc.py
+fn=norm
+19 931269500
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/function_base.py
+cfn=asarray_chkfinite
+calls=100744 435
+19 1581301700
+cfl=/usr/lib/python3.8/site-packages/scipy/linalg/blas.py
+cfn=getter
+calls=100744 372
+19 331607300
+
+fl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+fn=__init__:3359
+3359 700900
+
+fl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+fn=__init__:3369
+3369 2600
+
+fl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+fn=pearsonr
+3376 2684944100
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asarray
+calls=101612 16
+3376 285503200
+cfl=/usr/lib/python3.8/site-packages/scipy/linalg/misc.py
+cfn=norm
+calls=100744 19
+3376 2844178500
+cfl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+cfn=__init__:3359
+calls=434 3359
+3376 700900
+cfl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+cfn=__init__:3369
+calls=1 3369
+3376 2600
+cfl=<__array_function__ internals>
+cfn=dot
+calls=50372 2
+3376 581167300
+cfl=~
+cfn=<built-in method _warnings.warn>
+calls=435 0
+3376 1697300
+cfl=~
+cfn=<built-in method builtins.abs>
+calls=151116 0
+3376 144473500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=101612 0
+3376 94772600
+cfl=~
+cfn=<built-in method builtins.max>
+calls=50372 0
+3376 60987700
+cfl=~
+cfn=<built-in method builtins.min>
+calls=50372 0
+3376 80487700
+cfl=~
+cfn=<method 'all' of 'numpy.ndarray' objects>
+calls=101612 0
+3376 714666400
+cfl=~
+cfn=<method 'astype' of 'numpy.ndarray' objects>
+calls=100744 0
+3376 271170600
+cfl=~
+cfn=<method 'mean' of 'numpy.ndarray' objects>
+calls=100744 0
+3376 2415198200
+
+fl=/usr/lib/python3.8/warnings.py
+fn=simplefilter
+165 190850900
+cfl=/usr/lib/python3.8/warnings.py
+cfn=_add_filter
+calls=50914 181
+165 472255000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=50914 0
+165 49073700
+
+fl=/usr/lib/python3.8/warnings.py
+fn=_add_filter
+181 268449200
+cfl=~
+cfn=<built-in method _warnings._filters_mutated>
+calls=50914 0
+181 44385800
+cfl=~
+cfn=<method 'insert' of 'list' objects>
+calls=50914 0
+181 60222900
+cfl=~
+cfn=<method 'remove' of 'list' objects>
+calls=50914 0
+181 99197100
+
+fl=/usr/lib/python3.8/warnings.py
+fn=__init__
+441 97602100
+
+fl=/usr/lib/python3.8/warnings.py
+fn=__enter__
+462 160576500
+cfl=~
+cfn=<built-in method _warnings._filters_mutated>
+calls=50914 0
+462 49341100
+
+fl=/usr/lib/python3.8/warnings.py
+fn=__exit__
+481 150956500
+cfl=~
+cfn=<built-in method _warnings._filters_mutated>
+calls=50914 0
+481 49622900
+
+fl=<__array_function__ internals>
+fn=amax
+2 323900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_amax_dispatcher
+calls=102 2546
+2 99500
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 15535000
+
+fl=<__array_function__ internals>
+fn=amin
+2 342900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_amin_dispatcher
+calls=102 2671
+2 103300
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 15736100
+
+fl=<__array_function__ internals>
+fn=clip
+2 155181400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_clip_dispatcher
+calls=50688 2017
+2 46307600
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=50688 0
+2 3101824500
+
+fl=<__array_function__ internals>
+fn=copyto
+2 437491400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/multiarray.py
+cfn=copyto
+calls=146883 1043
+2 132075000
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=146883 0
+2 586572400
+
+fl=<__array_function__ internals>
+fn=dot
+2 159968900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/multiarray.py
+cfn=dot
+calls=50372 707
+2 48050000
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=50372 0
+2 373148400
+
+fl=<__array_function__ internals>
+fn=isneginf
+2 138463700
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=func:24
+calls=48961 24
+2 146894400
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=48961 0
+2 527311400
+
+fl=<__array_function__ internals>
+fn=isposinf
+2 155874600
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=func:24
+calls=48961 24
+2 186395900
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=48961 0
+2 640978400
+
+fl=<__array_function__ internals>
+fn=mean
+2 420700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_mean_dispatcher
+calls=102 3227
+2 109100
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 19238200
+
+fl=<__array_function__ internals>
+fn=nan_to_num
+2 175960900
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+cfn=_nan_to_num_dispatcher
+calls=50688 364
+2 48100500
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=50688 0
+2 4690515500
+
+fl=<__array_function__ internals>
+fn=ndim
+2 288303000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_ndim_dispatcher
+calls=101376 3033
+2 90751100
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=101376 0
+2 339763900
+
+fl=<__array_function__ internals>
+fn=repeat
+2 437200
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_repeat_dispatcher
+calls=118 436
+2 124500
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=118 0
+2 4115900
+
+fl=<__array_function__ internals>
+fn=std
+2 340000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_std_dispatcher
+calls=102 3338
+2 100100
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 21355100
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+1017 158258900
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=48961 0
+1017 48226000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=48961 0
+1017 43775000
+
+fl=<string>
+fn=<lambda>
+1 121800
+
+fl=<string>
+fn=<module>
+1 379000
+cfl=symreg.py
+cfn=evolve
+calls=1 123
+1 124157629000
+
+fl=symreg.py
+fn=<lambda>:75
+75 6470600
+cfl=~
+cfn=<method 'uniform' of 'numpy.random.mtrand.RandomState' objects>
+calls=2993 0
+75 17134800
+
+fl=symreg.py
+fn=limit_range
+78 1259791700
+cfl=<__array_function__ internals>
+cfn=clip
+calls=50688 2
+78 3303313500
+cfl=<__array_function__ internals>
+cfn=nan_to_num
+calls=50688 2
+78 4914576900
+cfl=<__array_function__ internals>
+cfn=repeat
+calls=118 2
+78 4677600
+cfl=~
+cfn=<built-in method builtins.len>
+calls=118 0
+78 121200
+cfl=~
+cfn=<method 'max' of 'numpy.ndarray' objects>
+calls=50688 0
+78 455541000
+cfl=~
+cfn=<method 'min' of 'numpy.ndarray' objects>
+calls=50806 0
+78 620822300
+
+fl=symreg.py
+fn=r2stat
+92 410783400
+cfl=/usr/lib/python3.8/site-packages/scipy/stats/stats.py
+cfn=pearsonr
+calls=50806 3376
+92 10179950600
+cfl=~
+cfn=<built-in method builtins.max>
+calls=50806 0
+92 52865200
+cfl=~
+cfn=<built-in method builtins.min>
+calls=50806 0
+92 65931900
+
+fl=symreg.py
+fn=evaluate
+106 1086002000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=compile
+calls=50914 460
+106 32069506800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/numeric.py
+cfn=isscalar
+calls=50914 1786
+106 539426400
+cfl=/usr/lib/python3.8/warnings.py
+cfn=simplefilter
+calls=50914 165
+106 712179600
+cfl=/usr/lib/python3.8/warnings.py
+cfn=__init__
+calls=50914 441
+106 97602100
+cfl=/usr/lib/python3.8/warnings.py
+cfn=__enter__
+calls=50914 462
+106 209917600
+cfl=/usr/lib/python3.8/warnings.py
+cfn=__exit__
+calls=50914 481
+106 200579400
+cfl=<string>
+cfn=<lambda>
+calls=1 1
+106 121800
+cfl=symreg.py
+cfn=limit_range
+calls=50806 78
+106 10558844200
+cfl=symreg.py
+cfn=r2stat
+calls=50806 92
+106 10709531100
+
+fl=symreg.py
+fn=evolve
+123 142200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__init__:48
+calls=1 48
+123 39000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=11 52
+123 115500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=decorate
+calls=4 100
+123 186800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=create
+calls=2 96
+123 49100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=staticLimit
+calls=4 885
+123 4100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=initRepeat
+calls=1 3
+123 212679400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:179
+calls=2 179
+123 3900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=register:247
+calls=4 247
+123 54700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:511
+calls=1 511
+123 2600
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=eaElite
+calls=1 4
+123 123944328800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+cfn=seterr
+calls=1 39
+123 22900
+
+fl=symreg.py
+fn=mutOperator
+151 51769700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutUniform
+calls=4131 738
+151 454708700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutNodeReplacement
+calls=4225 755
+151 155799600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutEphemeral
+calls=4220 781
+151 332760200
+cfl=~
+cfn=<method 'choice' of 'numpy.random.mtrand.RandomState' objects>
+calls=12576 0
+151 485024500
+
+fl=symreg.py
+fn=<lambda>:166
+166 94370000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=getValues
+calls=51000 184
+166 71125200
+
+fl=~
+fn=<built-in method _abc._abc_instancecheck>
+0 748728100
+cfl=/usr/lib/python3.8/abc.py
+cfn=__subclasscheck__
+calls=350925 100
+0 1634579000
+
+fl=~
+fn=<built-in method _abc._abc_subclasscheck>
+0 705449600
+cfl=/usr/lib/python3.8/_collections_abc.py
+cfn=__subclasshook__
+calls=350924 302
+0 321129800
+cfl=/usr/lib/python3.8/abc.py
+cfn=__subclasscheck__
+calls=5 100
+0 24900
+
+fl=~
+fn=<built-in method _bisect.bisect_right>
+0 75300
+
+fl=~
+fn=<built-in method _operator.eq>
+0 82500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__eq__:206
+calls=3 206
+0 30400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__eq__:233
+calls=3 233
+0 39100
+
+fl=~
+fn=<built-in method _warnings._filters_mutated>
+0 143349800
+
+fl=~
+fn=<built-in method _warnings.warn>
+0 1697300
+
+fl=~
+fn=<built-in method builtins.abs>
+0 144473500
+
+fl=~
+fn=<built-in method builtins.all>
+0 9300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:208
+calls=2 208
+0 10400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:235
+calls=2 235
+0 10900
+
+fl=~
+fn=<built-in method builtins.eval>
+0 4499136800
+
+fl=~
+fn=<built-in method builtins.exec>
+0 35500
+cfl=<string>
+cfn=<module>
+calls=1 1
+0 124158008000
+
+fl=~
+fn=<built-in method builtins.getattr>
+0 382284600
+
+fl=~
+fn=<built-in method builtins.globals>
+0 3700
+
+fl=~
+fn=<built-in method builtins.hasattr>
+0 151831800
+
+fl=~
+fn=<built-in method builtins.id>
+0 1358271000
+
+fl=~
+fn=<built-in method builtins.isinstance>
+0 1413042500
+cfl=/usr/lib/python3.8/abc.py
+cfn=__instancecheck__
+calls=401730 96
+0 3088702600
+
+fl=~
+fn=<built-in method builtins.issubclass>
+0 451454300
+
+fl=~
+fn=<built-in method builtins.iter>
+0 65400
+
+fl=~
+fn=<built-in method builtins.len>
+0 5681005100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__len__
+calls=102177 575
+0 257590100
+
+fl=~
+fn=<built-in method builtins.max>
+0 2567496600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__gt__
+calls=199800 233
+0 563047500
+
+fl=~
+fn=<built-in method builtins.min>
+0 146419600
+
+fl=~
+fn=<built-in method builtins.repr>
+0 53783700
+
+fl=~
+fn=<built-in method builtins.setattr>
+0 172130100
+
+fl=~
+fn=<built-in method builtins.sorted>
+0 388615000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__lt__
+calls=428607 242
+0 399580900
+
+fl=~
+fn=<built-in method numpy.array>
+0 402734100
+
+fl=~
+fn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+0 1691311800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=repeat
+calls=118 440
+0 3842600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=clip
+calls=50688 2021
+0 2958028300
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=amax
+calls=102 2551
+0 15313900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=amin
+calls=102 2676
+0 15509900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=ndim
+calls=101376 3037
+0 102247300
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=mean
+calls=102 3231
+0 18936200
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=std
+calls=102 3343
+0 21121400
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/type_check.py
+cfn=nan_to_num
+calls=50688 368
+0 4551206200
+cfl=/usr/lib/python3.8/site-packages/numpy/lib/ufunclike.py
+cfn=func:50
+calls=97922 50
+0 958577200
+
+fl=~
+fn=<built-in method numpy.geterrobj>
+0 2100
+
+fl=~
+fn=<built-in method numpy.seterrobj>
+0 1800
+
+fl=~
+fn=<method 'all' of 'numpy.ndarray' objects>
+0 421341900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_all
+calls=202356 47
+0 960106200
+
+fl=~
+fn=<method 'append' of 'list' objects>
+0 3347700100
+
+fl=~
+fn=<method 'astype' of 'numpy.ndarray' objects>
+0 271170600
+
+fl=~
+fn=<method 'bit_length' of 'int' objects>
+0 315274200
+
+fl=~
+fn=<method 'choice' of 'numpy.random.mtrand.RandomState' objects>
+0 197457100
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_name_get
+calls=12576 333
+0 287567400
+
+fl=~
+fn=<method 'clip' of 'numpy.ndarray' objects>
+0 118845600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_clip
+calls=50688 97
+0 2497001400
+
+fl=~
+fn=<method 'copy' of 'dict' objects>
+0 120100
+
+fl=~
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 1400
+
+fl=~
+fn=<method 'extend' of 'list' objects>
+0 1994633500
+
+fl=~
+fn=<method 'format' of 'str' objects>
+0 1416517300
+
+fl=~
+fn=<method 'get' of 'dict' objects>
+0 1373496500
+
+fl=~
+fn=<method 'getrandbits' of '_random.Random' objects>
+0 397258000
+
+fl=~
+fn=<method 'insert' of 'list' objects>
+0 60337500
+
+fl=~
+fn=<method 'items' of 'dict' objects>
+0 649288500
+
+fl=~
+fn=<method 'join' of 'str' objects>
+0 578251900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:475
+calls=560054 475
+0 481534600
+
+fl=~
+fn=<method 'keys' of 'dict' objects>
+0 1000
+
+fl=~
+fn=<method 'max' of 'numpy.ndarray' objects>
+0 109838500
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_amax
+calls=50688 28
+0 345702500
+
+fl=~
+fn=<method 'mean' of 'numpy.ndarray' objects>
+0 234260200
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_mean
+calls=100744 134
+0 2180938000
+
+fl=~
+fn=<method 'min' of 'numpy.ndarray' objects>
+0 126232900
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_amin
+calls=50806 32
+0 494589400
+
+fl=~
+fn=<method 'pop' of 'list' objects>
+0 3505695400
+
+fl=~
+fn=<method 'random' of '_random.Random' objects>
+0 69148700
+
+fl=~
+fn=<method 'reduce' of 'numpy.ufunc' objects>
+0 1764717200
+
+fl=~
+fn=<method 'remove' of 'list' objects>
+0 99197100
+
+fl=~
+fn=<method 'repeat' of 'numpy.ndarray' objects>
+0 1514300
+
+fl=~
+fn=<method 'uniform' of 'numpy.random.mtrand.RandomState' objects>
+0 17134800
+
+fl=~
+fn=<method 'update' of 'dict' objects>
+0 190305100
+
+fl=~
+fn=<method 'values' of 'dict' objects>
+0 3500
+

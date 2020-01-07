@@ -1,0 +1,3779 @@
+event: ns : Nanoseconds
+events: ns
+summary: 55361215700
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+fn=varAnd
+33 240507600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+cfn=<listcomp>
+calls=50 68
+33 5662127100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=delValues
+calls=62279 199
+33 62763200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=wrapper
+calls=37329 915
+33 31666680400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=100 0
+33 94800
+cfl=~
+cfn=<method 'random' of '_random.Random' objects>
+calls=74900 0
+33 68047700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+fn=<listcomp>
+68 63007400
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=49950 128
+68 5599119700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__init__:48
+48 3900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=2 52
+48 34600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=register
+52 161700
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=18 0
+52 20000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=18 0
+52 22400
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=18 0
+52 38800
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=17 0
+52 18400
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=17 0
+52 17200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=decorate
+100 22600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=4 52
+100 46700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=decorator
+calls=4 914
+100 228700
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=4 0
+100 4300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__init__:172
+172 957187300
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=350128 0
+172 3555089000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=350128 0
+172 304027100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=getValues
+184 76389500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=setValues
+187 83697300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=delValues
+199 62763200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=valid
+225 86238000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=51000 0
+225 41318300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__gt__
+233 458790600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__le__
+calls=250799 239
+233 259497600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__le__
+239 259497600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__lt__
+242 389953400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+fn=__deepcopy__
+251 378446400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=174564 160
+251 3092911200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+fn=create
+96 40600
+cfl=~
+cfn=<built-in method builtins.globals>
+calls=4 0
+96 3600
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+96 2000
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=2 0
+96 1800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+fn=initType
+160 2039590300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__init__:172
+calls=350128 172
+160 4816303400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=175564 160
+160 3184284100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:53
+calls=175564 53
+160 231430700
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=175564 0
+160 167567600
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=525692 0
+160 504339700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:53
+53 231430700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__deepcopy__
+56 746137600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=174564 160
+56 4639810000
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=174564 128
+56 11242581100
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=174564 0
+56 187163900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__setitem__
+61 322843100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=120700 226
+61 101877800
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=58366 0
+61 51752100
+cfl=~
+cfn=<built-in method builtins.len>
+calls=53884 0
+61 45632000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=height
+153 6879215300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=934426 226
+153 786017400
+cfl=~
+cfn=<built-in method builtins.max>
+calls=2163474 0
+153 2022308500
+cfl=~
+cfn=<method 'extend' of 'list' objects>
+calls=2163474 0
+153 1852671400
+cfl=~
+cfn=<method 'pop' of 'list' objects>
+calls=2163474 0
+153 1830614100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=root
+166 26829100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=searchSubtree
+172 196882700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=119773 226
+172 102905400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__eq__:206
+206 25300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:208
+calls=3 208
+206 4200
+cfl=~
+cfn=<built-in method builtins.all>
+calls=3 0
+206 38300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<genexpr>:208
+208 13800
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=6 0
+208 22000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:220
+220 4875600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=arity
+226 992748200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__eq__:233
+233 20300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:235
+calls=1 235
+233 1400
+cfl=~
+cfn=<built-in method builtins.all>
+calls=1 0
+233 7900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<genexpr>:235
+235 4800
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=2 0
+235 2200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=__init__:248
+248 5015300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:220
+calls=1357 220
+248 4875600
+cfl=symreg.py
+cfn=<lambda>:75
+calls=1357 75
+248 12587000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=terminalRatio
+422 1148000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genFull
+517 10513700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=generate
+calls=4601 587
+517 424105700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=condition:530
+530 14605700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genGrow
+537 990200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=generate
+calls=471 587
+537 49277500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=condition:550
+550 3619500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=terminalRatio
+calls=1007 422
+550 1148000
+cfl=~
+cfn=<method 'random' of '_random.Random' objects>
+calls=1007 0
+550 892700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=genHalfAndHalf
+560 3150100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genFull
+calls=529 517
+560 114647900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genGrow
+calls=471 537
+560 50267700
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=1000 285
+560 9930300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=generate
+587 134426500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=863 248
+587 14092600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=condition:530
+calls=16366 530
+587 14605700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=condition:550
+calls=1825 550
+587 5660200
+cfl=/usr/lib/python3.8/inspect.py
+cfn=isclass
+calls=9508 72
+587 25843400
+cfl=/usr/lib/python3.8/random.py
+cfn=randint
+calls=5072 244
+587 47441000
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=18191 285
+587 168150500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=23263 0
+587 19653200
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=31310 0
+587 27198700
+cfl=~
+cfn=<method 'pop' of 'list' objects>
+calls=18191 0
+587 16311400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=cxOnePoint
+640 400930100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=49812 61
+640 461153500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=root
+calls=24906 166
+640 26829100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=searchSubtree
+calls=49812 172
+640 272404200
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=74718 285
+640 698596500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=124601 0
+640 105026200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutUniform
+738 31993100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=4072 61
+738 36945800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=searchSubtree
+calls=4072 172
+738 27383900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genFull
+calls=4072 517
+738 319971500
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=4072 200
+738 32339300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=4072 0
+738 3780000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutNodeReplacement
+755 38350300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=4171 61
+755 21803900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=arity
+calls=2126 226
+755 1947600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=183 248
+755 3179600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:775
+calls=2045 775
+755 3694500
+cfl=/usr/lib/python3.8/inspect.py
+cfn=isclass
+calls=2126 72
+755 5959900
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=4171 200
+755 34122400
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=4171 285
+755 39878700
+cfl=~
+cfn=<built-in method builtins.len>
+calls=8345 0
+755 7356200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:775
+775 3694500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=mutEphemeral
+781 16575700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__setitem__
+calls=311 61
+781 2201800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__init__:248
+calls=311 248
+781 5205700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:795
+calls=4133 795
+781 240936400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=4133 0
+781 3742300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:795
+795 124007300
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=139346 0
+795 116929100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=staticLimit
+885 8300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=decorator
+914 112500
+cfl=/usr/lib/python3.8/functools.py
+cfn=update_wrapper
+calls=4 33
+914 107300
+cfl=/usr/lib/python3.8/functools.py
+cfn=wraps
+calls=4 63
+914 8900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=wrapper
+915 457730200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=height
+calls=62279 153
+915 13370826700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=cxOnePoint
+calls=24950 640
+915 1964939600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=wrapper
+calls=37329 915
+915 24064486300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<listcomp>:917
+calls=74658 917
+915 14316156100
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=9677 285
+915 99069600
+cfl=symreg.py
+cfn=mutOperator
+calls=12379 151
+915 1404348000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=62279 0
+915 53610200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+fn=<listcomp>:917
+917 234872200
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=124558 128
+917 14081283900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=initRepeat
+3 946100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=<genexpr>
+calls=1001 25
+3 209992300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=<genexpr>
+25 1891900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=initIterate
+calls=1000 27
+25 208100400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+fn=initIterate
+27 3593900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=initType
+calls=1000 160
+27 26510500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=genHalfAndHalf
+calls=1000 560
+27 177996000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selRandom
+12 106851200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=<listcomp>
+calls=49950 24
+12 2297190400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=<listcomp>
+24 294334100
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=249750 285
+24 2002856300
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selBest
+27 506800
+cfl=~
+cfn=<built-in method builtins.sorted>
+calls=50 0
+27 773544800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+fn=selTournament
+51 153520000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selRandom
+calls=49950 12
+51 2404041600
+cfl=~
+cfn=<built-in method builtins.max>
+calls=49950 0
+51 846754300
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=49950 0
+51 44091200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:179
+179 12400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=register:184
+184 20800
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=8 0
+184 7100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=compile:199
+199 91151000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=<genexpr>
+calls=102102 205
+199 400380300
+cfl=<__array_function__ internals>
+cfn=amax
+calls=102 2
+199 16585300
+cfl=<__array_function__ internals>
+cfn=amin
+calls=102 2
+199 16816800
+cfl=<__array_function__ internals>
+cfn=mean
+calls=102 2
+199 20864600
+cfl=<__array_function__ internals>
+cfn=std
+calls=102 2
+199 24827500
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=102 0
+199 106200
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=<genexpr>
+205 184021900
+cfl=symreg.py
+cfn=<lambda>:166
+calls=51000 166
+205 172669500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=51000 0
+205 43688900
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=compile:232
+232 3088400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=compile:199
+calls=102 199
+232 570731700
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=51 0
+232 59100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=fields
+243 9400
+cfl=~
+cfn=<built-in method builtins.sorted>
+calls=1 0
+243 4700
+cfl=~
+cfn=<method 'keys' of 'dict' objects>
+calls=1 0
+243 1000
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=register:247
+247 28000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=register:184
+calls=8 184
+247 27900
+cfl=~
+cfn=<method 'values' of 'dict' objects>
+calls=4 0
+247 3800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:275
+275 12400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=record
+335 2175400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:275
+calls=2 275
+335 4600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=record
+calls=102 335
+335 3197300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=<dictcomp>
+calls=153 342
+335 1742400
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=816 0
+335 713400
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=153 0
+335 140100
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=102 0
+335 103800
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=306 0
+335 263100
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=102 0
+335 152700
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=<dictcomp>
+342 966600
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=816 0
+342 775800
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__init__:511
+511 11100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=update
+517 204934300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__gt__
+calls=50999 233
+517 150763500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=insert
+calls=56 545
+517 8986100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=remove
+calls=55 562
+517 672800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__getitem__
+calls=50999 578
+517 48076100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__iter__
+calls=55 581
+517 175300
+cfl=~
+cfn=<built-in method _operator.eq>
+calls=55 0
+517 199800
+cfl=~
+cfn=<built-in method builtins.len>
+calls=101999 0
+517 460866100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=insert
+545 476100
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=56 128
+545 8064600
+cfl=~
+cfn=<built-in method _bisect.bisect_right>
+calls=56 0
+545 70500
+cfl=~
+cfn=<built-in method builtins.len>
+calls=56 0
+545 267300
+cfl=~
+cfn=<method 'insert' of 'list' objects>
+calls=112 0
+545 107600
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=remove
+562 214300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=110 0
+562 458500
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__len__
+575 187140900
+cfl=~
+cfn=<built-in method builtins.len>
+calls=102165 0
+575 89057400
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__getitem__
+578 48076100
+
+fl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+fn=__iter__
+581 115300
+cfl=~
+cfn=<built-in method builtins.iter>
+calls=55 0
+581 60000
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=eaElite
+4 76433500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/algorithms.py
+cfn=varAnd
+calls=50 33
+4 37700220800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=setValues
+calls=50923 187
+4 83697300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selBest
+calls=50 27
+4 774051600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/selection.py
+cfn=selTournament
+calls=50 51
+4 3448407100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=compile:232
+calls=51 232
+4 573879200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=fields
+calls=1 243
+4 15100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:275
+calls=1 275
+4 7800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=record
+calls=51 335
+4 5295500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=update
+calls=51 517
+4 874674000
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=<listcomp>:11
+calls=1 11
+4 3440400
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=<listcomp>:34
+calls=50 34
+4 173953500
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=map
+calls=51 359
+4 11281062700
+cfl=~
+cfn=<built-in method builtins.len>
+calls=101 0
+4 97700
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=<listcomp>:11
+11 963900
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=valid
+calls=1000 225
+11 2476500
+
+fl=/home/bogdb/projects/deap-symreg/algorithms.py
+fn=<listcomp>:34
+34 48873700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=valid
+calls=50000 225
+34 125079800
+
+fl=/usr/lib/python3.8/_collections_abc.py
+fn=__subclasshook__
+302 320972300
+
+fl=/usr/lib/python3.8/_weakrefset.py
+fn=_remove
+38 50300
+cfl=~
+cfn=<method 'discard' of 'set' objects>
+calls=15 0
+38 18700
+
+fl=/usr/lib/python3.8/_weakrefset.py
+fn=add
+81 127800
+cfl=~
+cfn=<method 'add' of 'set' objects>
+calls=15 0
+81 18000
+
+fl=/usr/lib/python3.8/abc.py
+fn=__instancecheck__
+96 604987300
+cfl=~
+cfn=<built-in method _abc._abc_instancecheck>
+calls=350128 0
+96 2292101200
+
+fl=/usr/lib/python3.8/abc.py
+fn=__subclasscheck__
+100 605507500
+cfl=~
+cfn=<built-in method _abc._abc_subclasscheck>
+calls=350128 0
+100 1016876400
+
+fl=/usr/lib/python3.8/copy.py
+fn=deepcopy
+128 4456249100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__deepcopy__
+calls=174564 251
+128 3471357600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__deepcopy__
+calls=174564 56
+128 16815692600
+cfl=/usr/lib/python3.8/copy.py
+cfn=_deepcopy_atomic
+calls=174564 182
+128 151661900
+cfl=/usr/lib/python3.8/copy.py
+cfn=_deepcopy_dict
+calls=174564 225
+128 8991034500
+cfl=/usr/lib/python3.8/copy.py
+cfn=_keep_alive
+calls=523692 241
+128 2408313400
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=349128 0
+128 326906800
+cfl=~
+cfn=<built-in method builtins.id>
+calls=698256 0
+128 600908200
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=349128 0
+128 307368800
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=1396512 0
+128 1214897100
+
+fl=/usr/lib/python3.8/copy.py
+fn=_deepcopy_atomic
+182 151661900
+
+fl=/usr/lib/python3.8/copy.py
+fn=_deepcopy_dict
+225 876367800
+cfl=/usr/lib/python3.8/copy.py
+cfn=deepcopy
+calls=349128 128
+225 7813340700
+cfl=~
+cfn=<built-in method builtins.id>
+calls=174564 0
+225 149420900
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=174564 0
+225 151905100
+
+fl=/usr/lib/python3.8/copy.py
+fn=_keep_alive
+241 1502959300
+cfl=~
+cfn=<built-in method builtins.id>
+calls=698256 0
+241 597813800
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=349128 0
+241 307540300
+
+fl=/usr/lib/python3.8/functools.py
+fn=update_wrapper
+33 56100
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=28 0
+33 27800
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=20 0
+33 19100
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=4 0
+33 4300
+
+fl=/usr/lib/python3.8/functools.py
+fn=wraps
+63 8900
+
+fl=/usr/lib/python3.8/inspect.py
+fn=isclass
+72 20659900
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=11634 0
+72 11143400
+
+fl=/usr/lib/python3.8/logging/__init__.py
+fn=_acquireLock
+214 31900
+cfl=~
+cfn=<method 'acquire' of '_thread.RLock' objects>
+calls=12 0
+214 23200
+
+fl=/usr/lib/python3.8/logging/__init__.py
+fn=_releaseLock
+223 174000
+cfl=~
+cfn=<method 'release' of '_thread.RLock' objects>
+calls=12 0
+223 68600
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=__init__
+117 10500
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=__del__
+130 22400
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=_close
+calls=6 360
+130 43000
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=_check_closed
+134 4800
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=_check_writable
+142 3900
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=send_bytes
+181 38000
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=_check_closed
+calls=3 134
+181 4800
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=_check_writable
+calls=3 142
+181 3900
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=_send_bytes
+calls=3 390
+181 87200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=3 0
+181 3700
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=_close
+360 13800
+cfl=~
+cfn=<built-in method posix.close>
+calls=6 0
+360 29200
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=_send
+365 14400
+cfl=~
+cfn=<built-in method builtins.len>
+calls=3 0
+365 3500
+cfl=~
+cfn=<built-in method posix.write>
+calls=3 0
+365 32100
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=_send_bytes
+390 26400
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=_send
+calls=3 365
+390 50000
+cfl=~
+cfn=<built-in method _struct.pack>
+calls=3 0
+390 7200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=3 0
+390 3600
+
+fl=/usr/lib/python3.8/multiprocessing/connection.py
+fn=Pipe
+516 18900
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=__init__
+calls=6 117
+516 10500
+cfl=~
+cfn=<built-in method posix.pipe>
+calls=3 0
+516 27000
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=Lock
+65 44900
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=get_context:187
+calls=6 187
+65 6000
+cfl=/usr/lib/python3.8/multiprocessing/synchronize.py
+cfn=__init__:161
+calls=6 161
+65 8668300
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=6 389
+65 21800
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=SimpleQueue
+110 28700
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=get_context:187
+calls=3 187
+110 2900
+cfl=/usr/lib/python3.8/multiprocessing/queues.py
+cfn=__init__
+calls=3 334
+110 8818000
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=3 389
+110 12000
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=get_context:187
+187 8900
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=get_start_method
+197 5900
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=get_context:233
+233 5000
+
+fl=/usr/lib/python3.8/multiprocessing/context.py
+fn=_Popen
+273 451500
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=__init__
+calls=12 15
+273 125462100
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=12 389
+273 126200
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load
+calls=1 986
+273 756100
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__init__:157
+157 2200
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=Process
+179 122000
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=__init__
+calls=12 80
+179 1169900
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__init__:183
+183 176000
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=SimpleQueue
+calls=1 110
+183 2913100
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=get_context:233
+calls=1 233
+183 5000
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__init__:157
+calls=1 157
+183 2200
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_get_sentinels
+calls=1 276
+183 11500
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_repopulate_pool
+calls=1 302
+183 129895300
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_setup_queues
+calls=1 342
+183 5962400
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=__init__
+calls=1 163
+183 12000
+cfl=/usr/lib/python3.8/threading.py
+cfn=__init__:761
+calls=3 761
+183 272600
+cfl=/usr/lib/python3.8/threading.py
+cfn=start
+calls=3 834
+183 1034400
+cfl=/usr/lib/python3.8/threading.py
+cfn=daemon:1110
+calls=3 1110
+183 14600
+cfl=~
+cfn=<built-in method posix.cpu_count>
+calls=1 0
+183 2500
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__del__
+263 14100
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__repr__
+calls=1 270
+263 5500
+cfl=/usr/lib/python3.8/multiprocessing/queues.py
+cfn=put
+calls=1 360
+263 82600
+cfl=~
+cfn=<built-in method _warnings.warn>
+calls=1 0
+263 34100
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=1 0
+263 1000
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__repr__
+270 4600
+cfl=~
+cfn=<built-in method builtins.len>
+calls=1 0
+270 900
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_get_sentinels
+276 11500
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_repopulate_pool
+302 13100
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_repopulate_pool_static
+calls=1 311
+302 129882200
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_repopulate_pool_static
+311 538600
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=Process
+calls=12 179
+311 1291900
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=start
+calls=12 110
+311 127904700
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=name:189
+calls=12 189
+311 11300
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=name:193
+calls=12 193
+311 61500
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=daemon
+calls=12 205
+311 14900
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=debug
+calls=12 48
+311 15000
+cfl=~
+cfn=<built-in method builtins.len>
+calls=1 0
+311 1000
+cfl=~
+cfn=<method 'append' of 'list' objects>
+calls=12 0
+311 22800
+cfl=~
+cfn=<method 'replace' of 'str' objects>
+calls=12 0
+311 20500
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_setup_queues
+342 13900
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=SimpleQueue
+calls=2 110
+342 5948500
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_check_running
+348 82100
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=map
+359 288300
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_map_async
+calls=51 468
+359 3278100
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=get
+calls=51 761
+359 11277496300
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_map_async
+468 984600
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_check_running
+calls=51 348
+468 82100
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__init__:788
+calls=51 788
+468 1570100
+cfl=~
+cfn=<built-in method builtins.divmod>
+calls=51 0
+468 71700
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=51 0
+468 85600
+cfl=~
+cfn=<built-in method builtins.len>
+calls=204 0
+468 185800
+cfl=~
+cfn=<method 'put' of '_queue.SimpleQueue' objects>
+calls=51 0
+468 298200
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_help_stuff_finish
+670 19900
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=debug
+calls=1 48
+670 900
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_alive
+calls=1 1071
+670 56800
+cfl=~
+cfn=<method 'acquire' of '_multiprocessing.SemLock' objects>
+calls=1 0
+670 8895700
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=_terminate_pool
+679 116600
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_help_stuff_finish
+calls=1 670
+679 8973300
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=is_alive
+calls=12 153
+679 175700
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=exitcode
+calls=12 224
+679 1887000
+cfl=/usr/lib/python3.8/multiprocessing/queues.py
+cfn=put
+calls=2 360
+679 237700
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=debug
+calls=7 48
+679 10600
+cfl=/usr/lib/python3.8/threading.py
+cfn=join
+calls=3 979
+679 64800
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_alive
+calls=1 1071
+679 26800
+cfl=/usr/lib/python3.8/threading.py
+cfn=current_thread
+calls=3 1306
+679 16700
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=2 0
+679 5300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=2 0
+679 2900
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__init__:741
+741 428700
+cfl=/usr/lib/python3.8/threading.py
+cfn=__init__:505
+calls=51 505
+741 768100
+cfl=~
+cfn=<built-in method builtins.next>
+calls=51 0
+741 60200
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=ready
+750 158300
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_set
+calls=51 513
+750 70700
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=wait
+758 166200
+cfl=/usr/lib/python3.8/threading.py
+cfn=wait:540
+calls=51 540
+758 11276803400
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=get
+761 297700
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=ready
+calls=51 750
+761 229000
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=wait
+calls=51 758
+761 11276969600
+
+fl=/usr/lib/python3.8/multiprocessing/pool.py
+fn=__init__:788
+788 313100
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__init__:741
+calls=51 741
+788 1257000
+
+fl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+fn=<module>
+1 9500
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=1 389
+1 3600
+cfl=<frozen importlib._bootstrap>
+cfn=_handle_fromlist
+calls=1 1017
+1 5700
+cfl=~
+cfn=<built-in method builtins.__build_class__>
+calls=1 0
+1 17800
+
+fl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+fn=Popen
+12 2900
+
+fl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+fn=__init__
+15 222300
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=_launch
+calls=12 66
+15 124926700
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=_flush_std_streams
+calls=12 410
+15 313100
+
+fl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+fn=poll
+24 301800
+cfl=~
+cfn=<built-in method posix.WEXITSTATUS>
+calls=12 0
+24 15700
+cfl=~
+cfn=<built-in method posix.WIFEXITED>
+calls=12 0
+24 16300
+cfl=~
+cfn=<built-in method posix.WIFSIGNALED>
+calls=12 0
+24 17700
+cfl=~
+cfn=<built-in method posix.waitpid>
+calls=78 0
+24 1787700
+
+fl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+fn=_launch
+66 766300
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=__init__
+calls=12 163
+66 518500
+cfl=~
+cfn=<built-in method posix.close>
+calls=24 0
+66 122400
+cfl=~
+cfn=<built-in method posix.fork>
+calls=12 0
+66 123280800
+cfl=~
+cfn=<built-in method posix.pipe>
+calls=24 0
+66 238700
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=_cleanup
+61 189800
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=poll
+calls=66 24
+61 318400
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=__init__
+80 758800
+cfl=/usr/lib/python3.8/_weakrefset.py
+cfn=add
+calls=12 81
+80 121400
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=name:189
+calls=12 189
+80 36200
+cfl=~
+cfn=<built-in method builtins.next>
+calls=12 0
+80 10800
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=12 0
+80 18300
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=12 0
+80 59700
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=12 0
+80 164700
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=<genexpr>
+94 61200
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=_check_closed
+99 44400
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=start
+110 528200
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=_Popen
+calls=12 273
+110 126795900
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=_cleanup
+calls=12 61
+110 508200
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=_check_closed
+calls=12 99
+110 12000
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=12 0
+110 18400
+cfl=~
+cfn=<method 'add' of 'set' objects>
+calls=12 0
+110 30500
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=12 0
+110 11500
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=is_alive
+153 102000
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=poll
+calls=12 24
+153 17000
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=_check_closed
+calls=12 99
+153 15500
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=12 0
+153 25600
+cfl=~
+cfn=<method 'discard' of 'set' objects>
+calls=12 0
+153 15600
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=name:189
+189 47500
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=name:193
+193 49500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=12 0
+193 12000
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=daemon
+205 14900
+
+fl=/usr/lib/python3.8/multiprocessing/process.py
+fn=exitcode
+224 66300
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=poll
+calls=12 24
+224 1803800
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=_check_closed
+calls=12 99
+224 16900
+
+fl=/usr/lib/python3.8/multiprocessing/queues.py
+fn=__init__
+334 20600
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=Pipe
+calls=3 516
+334 56400
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=Lock
+calls=6 65
+334 8741000
+
+fl=/usr/lib/python3.8/multiprocessing/queues.py
+fn=put
+360 42800
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=send_bytes
+calls=3 181
+360 137600
+cfl=/usr/lib/python3.8/multiprocessing/reduction.py
+cfn=dumps
+calls=3 48
+360 106300
+cfl=/usr/lib/python3.8/multiprocessing/synchronize.py
+cfn=__enter__
+calls=3 94
+360 20000
+cfl=/usr/lib/python3.8/multiprocessing/synchronize.py
+cfn=__exit__
+calls=3 97
+360 13600
+
+fl=/usr/lib/python3.8/multiprocessing/reduction.py
+fn=__init__
+38 38400
+cfl=~
+cfn=<method 'copy' of 'dict' objects>
+calls=3 0
+38 5600
+cfl=~
+cfn=<method 'update' of 'dict' objects>
+calls=3 0
+38 8100
+
+fl=/usr/lib/python3.8/multiprocessing/reduction.py
+fn=dumps
+48 31800
+cfl=/usr/lib/python3.8/multiprocessing/reduction.py
+cfn=__init__
+calls=3 38
+48 52100
+cfl=~
+cfn=<method 'dump' of '_pickle.Pickler' objects>
+calls=3 0
+48 15600
+cfl=~
+cfn=<method 'getbuffer' of '_io.BytesIO' objects>
+calls=3 0
+48 6800
+
+fl=/usr/lib/python3.8/multiprocessing/synchronize.py
+fn=__init__:50
+50 7790100
+cfl=/usr/lib/python3.8/multiprocessing/context.py
+cfn=get_start_method
+calls=6 197
+50 5900
+cfl=/usr/lib/python3.8/multiprocessing/synchronize.py
+cfn=_make_methods
+calls=6 90
+50 10000
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=debug
+calls=6 48
+50 8700
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=register_after_fork
+calls=6 148
+50 123400
+cfl=/usr/lib/python3.8/site-packages/joblib/externals/loky/backend/__init__.py
+cfn=_make_name
+calls=6 8
+50 714900
+
+fl=/usr/lib/python3.8/multiprocessing/synchronize.py
+fn=_make_methods
+90 10000
+
+fl=/usr/lib/python3.8/multiprocessing/synchronize.py
+fn=__enter__
+94 12200
+cfl=~
+cfn=<method '__enter__' of '_multiprocessing.SemLock' objects>
+calls=3 0
+94 7800
+
+fl=/usr/lib/python3.8/multiprocessing/synchronize.py
+fn=__exit__
+97 9000
+cfl=~
+cfn=<method '__exit__' of '_multiprocessing.SemLock' objects>
+calls=3 0
+97 4600
+
+fl=/usr/lib/python3.8/multiprocessing/synchronize.py
+fn=__init__:161
+161 15300
+cfl=/usr/lib/python3.8/multiprocessing/synchronize.py
+cfn=__init__:50
+calls=6 50
+161 8653000
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=sub_debug
+44 17100
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=debug
+48 35200
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=register_after_fork
+148 30100
+cfl=/usr/lib/python3.8/weakref.py
+cfn=__setitem__
+calls=6 159
+148 81100
+cfl=~
+cfn=<built-in method builtins.id>
+calls=6 0
+148 5800
+cfl=~
+cfn=<built-in method builtins.next>
+calls=6 0
+148 6400
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=__init__
+163 483500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+163 1000
+cfl=~
+cfn=<built-in method builtins.next>
+calls=13 0
+163 19400
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=13 0
+163 26600
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=__call__
+182 115700
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=_terminate_pool
+calls=1 679
+182 11517400
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=sub_debug
+calls=13 44
+182 17100
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=close_fds
+calls=12 438
+182 200500
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=13 0
+182 27100
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=_flush_std_streams
+410 207600
+cfl=~
+cfn=<method 'flush' of '_io.TextIOWrapper' objects>
+calls=24 0
+410 105500
+
+fl=/usr/lib/python3.8/multiprocessing/util.py
+fn=close_fds
+438 56200
+cfl=~
+cfn=<built-in method posix.close>
+calls=24 0
+438 144300
+
+fl=/usr/lib/python3.8/random.py
+fn=__init__
+94 2900
+cfl=/usr/lib/python3.8/random.py
+cfn=seed
+calls=1 123
+94 29800
+
+fl=/usr/lib/python3.8/random.py
+fn=seed
+123 10200
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+123 1200
+cfl=~
+cfn=<function Random.seed at 0x7fdf1927a8b0>
+calls=1 0
+123 18400
+
+fl=/usr/lib/python3.8/random.py
+fn=randrange
+200 31054600
+cfl=/usr/lib/python3.8/random.py
+cfn=_randbelow_with_getrandbits
+calls=13315 250
+200 72630000
+
+fl=/usr/lib/python3.8/random.py
+fn=randint
+244 10218100
+cfl=/usr/lib/python3.8/random.py
+cfn=randrange
+calls=5072 200
+244 37222900
+
+fl=/usr/lib/python3.8/random.py
+fn=_randbelow_with_getrandbits
+250 1083050800
+cfl=~
+cfn=<method 'bit_length' of 'int' objects>
+calls=370870 0
+250 318079800
+cfl=~
+cfn=<method 'getrandbits' of '_random.Random' objects>
+calls=457484 0
+250 397467500
+
+fl=/usr/lib/python3.8/random.py
+fn=choice
+285 985952800
+cfl=/usr/lib/python3.8/random.py
+cfn=_randbelow_with_getrandbits
+calls=357555 250
+285 1725968100
+cfl=~
+cfn=<built-in method builtins.len>
+calls=357555 0
+285 307028000
+
+fl=/usr/lib/python3.8/site-packages/joblib/externals/loky/backend/__init__.py
+fn=_make_name
+8 27200
+cfl=~
+cfn=<built-in method builtins.next>
+calls=6 0
+8 676600
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=6 0
+8 11100
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+fn=asanyarray
+88 736400
+cfl=~
+cfn=<built-in method numpy.array>
+calls=306 0
+88 28544300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_kind_name
+36 13557300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_name_includes_bit_suffix
+319 30136700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+cfn=issubdtype
+calls=12379 365
+319 134807400
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+fn=_name_get
+333 74955200
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_kind_name
+calls=12379 36
+333 13557300
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_name_includes_bit_suffix
+calls=12379 319
+333 164944100
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=12379 0
+333 11737100
+cfl=~
+cfn=<method 'format' of 'str' objects>
+calls=12379 0
+333 16742500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_count_reduce_items
+50 956300
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=204 0
+50 209400
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_mean
+134 1669600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asanyarray
+calls=102 88
+134 14663100
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_count_reduce_items
+calls=102 50
+134 687000
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=102 0
+134 140800
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=102 0
+134 161500
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=153 0
+134 147800
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=102 0
+134 1470400
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_var
+167 4045400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_asarray.py
+cfn=asanyarray
+calls=204 88
+167 14617600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_count_reduce_items
+calls=102 50
+167 478700
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=102 0
+167 112400
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=204 0
+167 266300
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=204 0
+167 189800
+cfl=~
+cfn=<built-in method builtins.max>
+calls=102 0
+167 177200
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=204 0
+167 2389000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+fn=_std
+215 1049600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_var
+calls=102 167
+215 22276400
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=102 0
+215 118500
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=102 0
+215 97300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+fn=seterr
+39 11500
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+cfn=geterr
+calls=1 139
+39 7500
+cfl=~
+cfn=<built-in method numpy.geterrobj>
+calls=1 0
+39 1400
+cfl=~
+cfn=<built-in method numpy.seterrobj>
+calls=1 0
+39 1800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+fn=geterr
+139 6600
+cfl=~
+cfn=<built-in method numpy.geterrobj>
+calls=1 0
+139 900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_wrapreduction
+73 1450400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=<dictcomp>
+calls=204 74
+73 272000
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=204 0
+73 268300
+cfl=~
+cfn=<method 'items' of 'dict' objects>
+calls=204 0
+73 216400
+cfl=~
+cfn=<method 'reduce' of 'numpy.ufunc' objects>
+calls=204 0
+73 29119500
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=<dictcomp>
+74 272000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_amax_dispatcher
+2546 99300
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=amax
+2551 340800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapreduction
+calls=102 73
+2551 15571000
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_amin_dispatcher
+2671 101900
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=amin
+2676 369400
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_wrapreduction
+calls=102 73
+2676 15755600
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_mean_dispatcher
+3227 112800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=mean
+3231 938100
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_mean
+calls=102 134
+3231 18940200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=_std_dispatcher
+3338 140200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+fn=std
+3343 545000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_methods.py
+cfn=_std
+calls=102 215
+3343 23541800
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+fn=issubclass_
+293 50202400
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=24758 0
+293 24536200
+
+fl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+fn=issubdtype
+365 49547000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/numerictypes.py
+cfn=issubclass_
+calls=24758 293
+365 74738600
+cfl=~
+cfn=<built-in method builtins.issubclass>
+calls=12379 0
+365 10521800
+
+fl=/usr/lib/python3.8/tempfile.py
+fn=rng
+133 32100
+cfl=/usr/lib/python3.8/random.py
+cfn=__init__
+calls=1 94
+133 32700
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=6 0
+133 5900
+cfl=~
+cfn=<built-in method posix.getpid>
+calls=6 0
+133 9000
+
+fl=/usr/lib/python3.8/tempfile.py
+fn=__next__
+144 45600
+cfl=/usr/lib/python3.8/tempfile.py
+cfn=rng
+calls=6 133
+144 79700
+cfl=/usr/lib/python3.8/tempfile.py
+cfn=<listcomp>
+calls=6 147
+144 523500
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=6 0
+144 7100
+
+fl=/usr/lib/python3.8/tempfile.py
+fn=<listcomp>
+147 56500
+cfl=/usr/lib/python3.8/random.py
+cfn=choice
+calls=48 285
+147 467000
+
+fl=/usr/lib/python3.8/threading.py
+fn=__init__:222
+222 503900
+
+fl=/usr/lib/python3.8/threading.py
+fn=__enter__
+246 120500
+cfl=~
+cfn=<method '__enter__' of '_thread.lock' objects>
+calls=54 0
+246 94400
+
+fl=/usr/lib/python3.8/threading.py
+fn=__exit__
+249 193800
+cfl=~
+cfn=<method '__exit__' of '_thread.lock' objects>
+calls=54 0
+249 78300
+
+fl=/usr/lib/python3.8/threading.py
+fn=_release_save
+255 112000
+cfl=~
+cfn=<method 'release' of '_thread.lock' objects>
+calls=54 0
+255 53300
+
+fl=/usr/lib/python3.8/threading.py
+fn=_acquire_restore
+258 207800
+cfl=~
+cfn=<method 'acquire' of '_thread.lock' objects>
+calls=54 0
+258 94400
+
+fl=/usr/lib/python3.8/threading.py
+fn=_is_owned
+261 119900
+cfl=~
+cfn=<method 'acquire' of '_thread.lock' objects>
+calls=54 0
+261 80600
+
+fl=/usr/lib/python3.8/threading.py
+fn=wait:270
+270 742800
+cfl=/usr/lib/python3.8/threading.py
+cfn=_release_save
+calls=54 255
+270 165300
+cfl=/usr/lib/python3.8/threading.py
+cfn=_acquire_restore
+calls=54 258
+270 302200
+cfl=/usr/lib/python3.8/threading.py
+cfn=_is_owned
+calls=54 261
+270 200500
+cfl=~
+cfn=<built-in method _thread.allocate_lock>
+calls=54 0
+270 56300
+cfl=~
+cfn=<method 'acquire' of '_thread.lock' objects>
+calls=108 0
+270 11274992600
+cfl=~
+cfn=<method 'append' of 'collections.deque' objects>
+calls=54 0
+270 60600
+
+fl=/usr/lib/python3.8/threading.py
+fn=__init__:505
+505 255400
+cfl=/usr/lib/python3.8/threading.py
+cfn=__init__:222
+calls=54 222
+505 503900
+cfl=~
+cfn=<built-in method _thread.allocate_lock>
+calls=54 0
+505 92200
+
+fl=/usr/lib/python3.8/threading.py
+fn=is_set
+513 83400
+
+fl=/usr/lib/python3.8/threading.py
+fn=wait:540
+540 460600
+cfl=/usr/lib/python3.8/threading.py
+cfn=__enter__
+calls=54 246
+540 214900
+cfl=/usr/lib/python3.8/threading.py
+cfn=__exit__
+calls=54 249
+540 272100
+cfl=/usr/lib/python3.8/threading.py
+cfn=wait:270
+calls=54 270
+540 11276520300
+
+fl=/usr/lib/python3.8/threading.py
+fn=_newname
+734 9000
+
+fl=/usr/lib/python3.8/threading.py
+fn=__init__:761
+761 114100
+cfl=/usr/lib/python3.8/_weakrefset.py
+cfn=add
+calls=3 81
+761 24400
+cfl=/usr/lib/python3.8/threading.py
+cfn=__init__:505
+calls=3 505
+761 83400
+cfl=/usr/lib/python3.8/threading.py
+cfn=_newname
+calls=3 734
+761 9000
+cfl=/usr/lib/python3.8/threading.py
+cfn=daemon:1095
+calls=3 1095
+761 8100
+cfl=/usr/lib/python3.8/threading.py
+cfn=_make_invoke_excepthook
+calls=3 1177
+761 18600
+cfl=/usr/lib/python3.8/threading.py
+cfn=current_thread
+calls=3 1306
+761 15000
+
+fl=/usr/lib/python3.8/threading.py
+fn=start
+834 44400
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_set
+calls=3 513
+834 2800
+cfl=/usr/lib/python3.8/threading.py
+cfn=wait:540
+calls=3 540
+834 664500
+cfl=~
+cfn=<built-in method _thread.start_new_thread>
+calls=3 0
+834 322700
+
+fl=/usr/lib/python3.8/threading.py
+fn=_stop
+944 24100
+cfl=/usr/lib/python3.8/threading.py
+cfn=daemon:1095
+calls=3 1095
+944 5200
+cfl=~
+cfn=<method 'locked' of '_thread.lock' objects>
+calls=3 0
+944 3900
+
+fl=/usr/lib/python3.8/threading.py
+fn=join
+979 22700
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_set
+calls=3 513
+979 4000
+cfl=/usr/lib/python3.8/threading.py
+cfn=_wait_for_tstate_lock
+calls=3 1017
+979 25200
+cfl=/usr/lib/python3.8/threading.py
+cfn=current_thread
+calls=3 1306
+979 12900
+
+fl=/usr/lib/python3.8/threading.py
+fn=_wait_for_tstate_lock
+1017 35300
+cfl=/usr/lib/python3.8/threading.py
+cfn=_stop
+calls=3 944
+1017 33200
+cfl=~
+cfn=<method 'acquire' of '_thread.lock' objects>
+calls=3 0
+1017 12900
+cfl=~
+cfn=<method 'release' of '_thread.lock' objects>
+calls=3 0
+1017 5200
+
+fl=/usr/lib/python3.8/threading.py
+fn=is_alive
+1071 19300
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_set
+calls=2 513
+1071 2900
+cfl=/usr/lib/python3.8/threading.py
+cfn=_wait_for_tstate_lock
+calls=2 1017
+1071 61400
+
+fl=/usr/lib/python3.8/threading.py
+fn=daemon:1095
+1095 13300
+
+fl=/usr/lib/python3.8/threading.py
+fn=daemon:1110
+1110 11600
+cfl=/usr/lib/python3.8/threading.py
+cfn=is_set
+calls=3 513
+1110 3000
+
+fl=/usr/lib/python3.8/threading.py
+fn=_make_invoke_excepthook
+1177 18600
+
+fl=/usr/lib/python3.8/threading.py
+fn=current_thread
+1306 32500
+cfl=~
+cfn=<built-in method _thread.get_ident>
+calls=9 0
+1306 12100
+
+fl=/usr/lib/python3.8/weakref.py
+fn=remove
+103 28700
+cfl=~
+cfn=<built-in method _weakref._remove_dead_weakref>
+calls=6 0
+103 22600
+
+fl=/usr/lib/python3.8/weakref.py
+fn=__setitem__
+159 36500
+cfl=/usr/lib/python3.8/weakref.py
+cfn=__new__
+calls=6 323
+159 28000
+cfl=/usr/lib/python3.8/weakref.py
+cfn=__init__
+calls=6 328
+159 16600
+
+fl=/usr/lib/python3.8/weakref.py
+fn=__new__
+323 19300
+cfl=~
+cfn=<built-in method __new__ of type object at 0x7fdf19bfdfc0>
+calls=6 0
+323 8700
+
+fl=/usr/lib/python3.8/weakref.py
+fn=__init__
+328 16600
+
+fl=<__array_function__ internals>
+fn=amax
+2 317000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_amax_dispatcher
+calls=102 2546
+2 99300
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 16169000
+
+fl=<__array_function__ internals>
+fn=amin
+2 365600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_amin_dispatcher
+calls=102 2671
+2 101900
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 16349300
+
+fl=<__array_function__ internals>
+fn=mean
+2 586300
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_mean_dispatcher
+calls=102 3227
+2 112800
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 20165500
+
+fl=<__array_function__ internals>
+fn=std
+2 336700
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=_std_dispatcher
+calls=102 3338
+2 140200
+cfl=~
+cfn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+calls=102 0
+2 24350600
+
+fl=<frozen importlib._bootstrap>
+fn=_new_module
+35 1800
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:58
+58 5000
+cfl=~
+cfn=<built-in method _thread.allocate_lock>
+calls=2 0
+58 2000
+
+fl=<frozen importlib._bootstrap>
+fn=acquire
+78 5300
+cfl=~
+cfn=<built-in method _thread.get_ident>
+calls=1 0
+78 1000
+
+fl=<frozen importlib._bootstrap>
+fn=release
+103 4900
+cfl=~
+cfn=<built-in method _thread.get_ident>
+calls=1 0
+103 1000
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:143
+143 1600
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__:147
+147 4000
+cfl=<frozen importlib._bootstrap>
+cfn=acquire
+calls=1 78
+147 6300
+cfl=<frozen importlib._bootstrap>
+cfn=_get_module_lock
+calls=1 157
+147 23000
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__:151
+151 2400
+cfl=<frozen importlib._bootstrap>
+cfn=release
+calls=1 103
+151 5900
+
+fl=<frozen importlib._bootstrap>
+fn=_get_module_lock
+157 13800
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:58
+calls=1 58
+157 7000
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=1 0
+157 1100
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=1 0
+157 1100
+
+fl=<frozen importlib._bootstrap>
+fn=cb
+176 10500
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=1 0
+176 900
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=1 0
+176 900
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+176 1100
+
+fl=<frozen importlib._bootstrap>
+fn=_call_with_frames_removed
+211 2300
+cfl=~
+cfn=<built-in method builtins.exec>
+calls=1 0
+211 39600
+
+fl=<frozen importlib._bootstrap>
+fn=_verbose_message
+222 8200
+
+fl=<frozen importlib._bootstrap>
+fn=__init__:342
+342 1600
+
+fl=<frozen importlib._bootstrap>
+fn=cached
+376 4200
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_cached
+calls=1 424
+376 34000
+
+fl=<frozen importlib._bootstrap>
+fn=parent
+389 131400
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=23 0
+389 35300
+
+fl=<frozen importlib._bootstrap>
+fn=has_location
+397 1000
+
+fl=<frozen importlib._bootstrap>
+fn=_init_module_attrs
+477 11900
+cfl=<frozen importlib._bootstrap>
+cfn=cached
+calls=2 376
+477 38200
+cfl=<frozen importlib._bootstrap>
+cfn=parent
+calls=1 389
+477 3100
+cfl=<frozen importlib._bootstrap>
+cfn=has_location
+calls=1 397
+477 1000
+cfl=~
+cfn=<built-in method builtins.getattr>
+calls=6 0
+477 8000
+
+fl=<frozen importlib._bootstrap>
+fn=module_from_spec
+549 6200
+cfl=<frozen importlib._bootstrap>
+cfn=_new_module
+calls=1 35
+549 1800
+cfl=<frozen importlib._bootstrap>
+cfn=_init_module_attrs
+calls=1 477
+549 62200
+cfl=<frozen importlib._bootstrap_external>
+cfn=create_module
+calls=1 774
+549 900
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+549 1000
+
+fl=<frozen importlib._bootstrap>
+fn=_load_unlocked
+650 9400
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 222
+650 1100
+cfl=<frozen importlib._bootstrap>
+cfn=module_from_spec
+calls=1 549
+650 72100
+cfl=<frozen importlib._bootstrap_external>
+cfn=exec_module
+calls=1 777
+650 420400
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+650 1200
+cfl=~
+cfn=<method 'pop' of 'dict' objects>
+calls=1 0
+650 1200
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec:725
+725 1100
+
+fl=<frozen importlib._bootstrap>
+fn=find_spec:800
+800 2900
+cfl=~
+cfn=<built-in method _imp.is_frozen>
+calls=1 0
+800 1300
+
+fl=<frozen importlib._bootstrap>
+fn=__enter__:863
+863 5500
+cfl=~
+cfn=<built-in method _imp.acquire_lock>
+calls=3 0
+863 2700
+
+fl=<frozen importlib._bootstrap>
+fn=__exit__:867
+867 5800
+cfl=~
+cfn=<built-in method _imp.release_lock>
+calls=3 0
+867 2800
+
+fl=<frozen importlib._bootstrap>
+fn=_find_spec
+890 14500
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:725
+calls=1 725
+890 1100
+cfl=<frozen importlib._bootstrap>
+cfn=find_spec:800
+calls=1 800
+890 4200
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:863
+calls=3 863
+890 8200
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:867
+calls=3 867
+890 8600
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1334
+calls=1 1334
+890 128500
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load_unlocked
+956 9300
+cfl=<frozen importlib._bootstrap>
+cfn=_load_unlocked
+calls=1 650
+956 505400
+cfl=<frozen importlib._bootstrap>
+cfn=_find_spec
+calls=1 890
+956 165100
+cfl=~
+cfn=<built-in method builtins.setattr>
+calls=1 0
+956 1300
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+956 5600
+
+fl=<frozen importlib._bootstrap>
+fn=_find_and_load
+986 11800
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:143
+calls=1 143
+986 1600
+cfl=<frozen importlib._bootstrap>
+cfn=__enter__:147
+calls=1 147
+986 33300
+cfl=<frozen importlib._bootstrap>
+cfn=__exit__:151
+calls=1 151
+986 8300
+cfl=<frozen importlib._bootstrap>
+cfn=cb
+calls=1 176
+986 13400
+cfl=<frozen importlib._bootstrap>
+cfn=_find_and_load_unlocked
+calls=1 956
+986 686700
+cfl=~
+cfn=<method 'get' of 'dict' objects>
+calls=1 0
+986 1000
+
+fl=<frozen importlib._bootstrap>
+fn=_handle_fromlist
+1017 3500
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+1017 1200
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+1017 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=_relax_case
+40 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=_unpack_uint32
+51 4200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=1 0
+51 900
+cfl=~
+cfn=<built-in method from_bytes>
+calls=1 0
+51 1200
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_join
+62 18200
+cfl=<frozen importlib._bootstrap_external>
+cfn=<listcomp>
+calls=6 64
+62 32600
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=6 0
+62 5800
+
+fl=<frozen importlib._bootstrap_external>
+fn=<listcomp>
+64 20800
+cfl=~
+cfn=<method 'rstrip' of 'str' objects>
+calls=14 0
+64 11800
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_split
+68 6200
+cfl=~
+cfn=<built-in method builtins.len>
+calls=2 0
+68 1800
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+68 1900
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_stat
+80 6800
+cfl=~
+cfn=<built-in method posix.stat>
+calls=3 0
+80 35300
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_is_mode_type
+90 2700
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=1 80
+90 11900
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_isfile
+99 2700
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_is_mode_type
+calls=1 90
+99 14600
+
+fl=<frozen importlib._bootstrap_external>
+fn=cache_from_source
+294 16000
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=2 62
+294 20800
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_split
+calls=2 68
+294 9900
+cfl=~
+cfn=<built-in method posix.fspath>
+calls=2 0
+294 1800
+cfl=~
+cfn=<method 'join' of 'str' objects>
+calls=2 0
+294 2000
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=2 0
+294 5200
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_cached
+424 4700
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=1 294
+424 27600
+cfl=~
+cfn=<method 'endswith' of 'str' objects>
+calls=1 0
+424 1700
+
+fl=<frozen importlib._bootstrap_external>
+fn=_check_name_wrapper
+456 2900
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_filename
+calls=1 964
+456 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=_classify_pyc
+493 5400
+cfl=<frozen importlib._bootstrap_external>
+cfn=_unpack_uint32
+calls=1 51
+493 6300
+cfl=~
+cfn=<built-in method builtins.len>
+calls=1 0
+493 1100
+
+fl=<frozen importlib._bootstrap_external>
+fn=_validate_hash_pyc
+554 1600
+
+fl=<frozen importlib._bootstrap_external>
+fn=_compile_bytecode
+578 7700
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 222
+578 1000
+cfl=~
+cfn=<built-in method _imp._fix_co_filename>
+calls=1 0
+578 1000
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+578 1000
+cfl=~
+cfn=<built-in method marshal.loads>
+calls=1 0
+578 29400
+
+fl=<frozen importlib._bootstrap_external>
+fn=spec_from_file_location
+629 6100
+cfl=<frozen importlib._bootstrap>
+cfn=__init__:342
+calls=1 342
+629 1600
+cfl=~
+cfn=<built-in method posix.fspath>
+calls=1 0
+629 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=create_module
+774 900
+
+fl=<frozen importlib._bootstrap_external>
+fn=exec_module
+777 5300
+cfl=<frozen importlib._bootstrap>
+cfn=_call_with_frames_removed
+calls=1 211
+777 41900
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_code
+calls=1 849
+777 373200
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_code
+849 28900
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=1 222
+849 1600
+cfl=<frozen importlib._bootstrap_external>
+cfn=cache_from_source
+calls=1 294
+849 28100
+cfl=<frozen importlib._bootstrap_external>
+cfn=_check_name_wrapper
+calls=1 456
+849 3900
+cfl=<frozen importlib._bootstrap_external>
+cfn=_classify_pyc
+calls=1 493
+849 12800
+cfl=<frozen importlib._bootstrap_external>
+cfn=_validate_hash_pyc
+calls=1 554
+849 1600
+cfl=<frozen importlib._bootstrap_external>
+cfn=_compile_bytecode
+calls=1 578
+849 40100
+cfl=<frozen importlib._bootstrap_external>
+cfn=get_data
+calls=2 969
+849 240200
+cfl=<frozen importlib._bootstrap_external>
+cfn=path_stats
+calls=1 1010
+849 13500
+cfl=~
+cfn=<built-in method _imp.source_hash>
+calls=1 0
+849 2500
+
+fl=<frozen importlib._bootstrap_external>
+fn=__init__
+939 1400
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_filename
+964 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=get_data
+969 40700
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=2 0
+969 2000
+cfl=~
+cfn=<built-in method io.open_code>
+calls=2 0
+969 137400
+cfl=~
+cfn=<method 'read' of '_io.BufferedReader' objects>
+calls=2 0
+969 60100
+
+fl=<frozen importlib._bootstrap_external>
+fn=path_stats
+1010 2500
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=1 80
+1010 11000
+
+fl=<frozen importlib._bootstrap_external>
+fn=_path_importer_cache
+1265 1800
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec:1302
+1302 7300
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_importer_cache
+calls=1 1265
+1302 1800
+cfl=<frozen importlib._bootstrap_external>
+cfn=find_spec:1431
+calls=1 1431
+1302 114200
+cfl=~
+cfn=<built-in method builtins.hasattr>
+calls=1 0
+1302 1200
+cfl=~
+cfn=<built-in method builtins.isinstance>
+calls=1 0
+1302 1000
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec:1334
+1334 3000
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1302
+calls=1 1302
+1334 125500
+
+fl=<frozen importlib._bootstrap_external>
+fn=_get_spec:1426
+1426 4100
+cfl=<frozen importlib._bootstrap_external>
+cfn=spec_from_file_location
+calls=1 629
+1426 8700
+cfl=<frozen importlib._bootstrap_external>
+cfn=__init__
+calls=1 939
+1426 1400
+
+fl=<frozen importlib._bootstrap_external>
+fn=find_spec:1431
+1431 21300
+cfl=<frozen importlib._bootstrap>
+cfn=_verbose_message
+calls=4 222
+1431 4500
+cfl=<frozen importlib._bootstrap_external>
+cfn=_relax_case
+calls=1 40
+1431 1000
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_join
+calls=4 62
+1431 35800
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_stat
+calls=1 80
+1431 19200
+cfl=<frozen importlib._bootstrap_external>
+cfn=_path_isfile
+calls=1 99
+1431 17300
+cfl=<frozen importlib._bootstrap_external>
+cfn=_get_spec:1426
+calls=1 1426
+1431 14200
+cfl=~
+cfn=<method 'rpartition' of 'str' objects>
+calls=1 0
+1431 900
+
+fl=<string>
+fn=<module>
+1 1536600
+cfl=/usr/lib/python3.8/_weakrefset.py
+cfn=_remove
+calls=15 38
+1 69000
+cfl=/usr/lib/python3.8/multiprocessing/connection.py
+cfn=__del__
+calls=6 130
+1 65400
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__del__
+calls=1 263
+1 137300
+cfl=/usr/lib/python3.8/multiprocessing/util.py
+cfn=__call__
+calls=13 182
+1 11877800
+cfl=/usr/lib/python3.8/weakref.py
+cfn=remove
+calls=6 103
+1 51300
+cfl=symreg.py
+cfn=evolve
+calls=1 123
+1 55347440300
+
+fl=symreg.py
+fn=<lambda>:75
+75 3078400
+cfl=~
+cfn=<method 'uniform' of 'numpy.random.mtrand.RandomState' objects>
+calls=1357 0
+75 9508600
+
+fl=symreg.py
+fn=evolve
+123 264400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__init__:48
+calls=1 48
+123 38500
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=register
+calls=12 52
+123 197200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=decorate
+calls=4 100
+123 302300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/creator.py
+cfn=create
+calls=2 96
+123 48000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=staticLimit
+calls=4 885
+123 8300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/init.py
+cfn=initRepeat
+calls=1 3
+123 210938400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:179
+calls=2 179
+123 12400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=register:247
+calls=4 247
+123 59700
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__init__:511
+calls=1 511
+123 11100
+cfl=/home/bogdb/projects/deap-symreg/algorithms.py
+cfn=eaElite
+calls=1 4
+123 54995236200
+cfl=/usr/lib/python3.8/multiprocessing/pool.py
+cfn=__init__:183
+calls=1 183
+123 140301600
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_ufunc_config.py
+cfn=seterr
+calls=1 39
+123 22200
+
+fl=symreg.py
+fn=mutOperator
+151 51148200
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutUniform
+calls=4072 738
+151 452413600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutNodeReplacement
+calls=4174 755
+151 156293100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=mutEphemeral
+calls=4133 781
+151 268661900
+cfl=~
+cfn=<method 'choice' of 'numpy.random.mtrand.RandomState' objects>
+calls=12379 0
+151 475831200
+
+fl=symreg.py
+fn=<lambda>:166
+166 96280000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=getValues
+calls=51000 184
+166 76389500
+
+fl=~
+fn=<built-in method __new__ of type object at 0x7fdf19bfdfc0>
+0 8700
+
+fl=~
+fn=<built-in method _abc._abc_instancecheck>
+0 669717300
+cfl=/usr/lib/python3.8/abc.py
+cfn=__subclasscheck__
+calls=350128 100
+0 1622383900
+
+fl=~
+fn=<built-in method _abc._abc_subclasscheck>
+0 695904100
+cfl=/usr/lib/python3.8/_collections_abc.py
+cfn=__subclasshook__
+calls=350128 302
+0 320972300
+
+fl=~
+fn=<built-in method _bisect.bisect_right>
+0 70500
+
+fl=~
+fn=<built-in method _imp._fix_co_filename>
+0 1000
+
+fl=~
+fn=<built-in method _imp.acquire_lock>
+0 4700
+
+fl=~
+fn=<built-in method _imp.is_frozen>
+0 1300
+
+fl=~
+fn=<built-in method _imp.release_lock>
+0 4800
+
+fl=~
+fn=<built-in method _imp.source_hash>
+0 2500
+
+fl=~
+fn=<built-in method _operator.eq>
+0 102400
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__eq__:206
+calls=6 206
+0 67800
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=__eq__:233
+calls=4 233
+0 29600
+
+fl=~
+fn=<built-in method _struct.pack>
+0 7200
+
+fl=~
+fn=<built-in method _thread.allocate_lock>
+0 150500
+
+fl=~
+fn=<built-in method _thread.get_ident>
+0 14100
+
+fl=~
+fn=<built-in method _thread.start_new_thread>
+0 322700
+
+fl=~
+fn=<built-in method _warnings.warn>
+0 34100
+
+fl=~
+fn=<built-in method _weakref._remove_dead_weakref>
+0 22600
+
+fl=~
+fn=<built-in method builtins.__build_class__>
+0 14900
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=Popen
+calls=1 12
+0 2900
+
+fl=~
+fn=<built-in method builtins.all>
+0 9000
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:208
+calls=3 208
+0 31600
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/gp.py
+cfn=<genexpr>:235
+calls=1 235
+0 5600
+
+fl=~
+fn=<built-in method builtins.divmod>
+0 71700
+
+fl=~
+fn=<built-in method builtins.exec>
+0 41000
+cfl=/usr/lib/python3.8/multiprocessing/popen_fork.py
+cfn=<module>
+calls=1 1
+0 36600
+cfl=<string>
+cfn=<module>
+calls=1 1
+0 55361177700
+
+fl=~
+fn=<built-in method builtins.getattr>
+0 327246300
+
+fl=~
+fn=<built-in method builtins.globals>
+0 3600
+
+fl=~
+fn=<built-in method builtins.hasattr>
+0 487200
+
+fl=~
+fn=<built-in method builtins.id>
+0 1348148700
+
+fl=~
+fn=<built-in method builtins.isinstance>
+0 840092400
+cfl=/usr/lib/python3.8/abc.py
+cfn=__instancecheck__
+calls=350128 96
+0 2897088500
+
+fl=~
+fn=<built-in method builtins.issubclass>
+0 354501500
+
+fl=~
+fn=<built-in method builtins.iter>
+0 60000
+
+fl=~
+fn=<built-in method builtins.len>
+0 1209711100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/tools/support.py
+cfn=__len__
+calls=102165 575
+0 276198300
+
+fl=~
+fn=<built-in method builtins.max>
+0 2301715300
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__gt__
+calls=199800 233
+0 567524700
+
+fl=~
+fn=<built-in method builtins.next>
+0 117500
+cfl=/usr/lib/python3.8/tempfile.py
+cfn=__next__
+calls=6 144
+0 655900
+
+fl=~
+fn=<built-in method builtins.setattr>
+0 167626800
+
+fl=~
+fn=<built-in method builtins.sorted>
+0 383596100
+cfl=/home/bogdb/.local/lib/python3.8/site-packages/deap/base.py
+cfn=__lt__
+calls=425010 242
+0 389953400
+
+fl=~
+fn=<built-in method from_bytes>
+0 1200
+
+fl=~
+fn=<built-in method io.open_code>
+0 137400
+
+fl=~
+fn=<built-in method marshal.loads>
+0 29400
+
+fl=~
+fn=<built-in method numpy.array>
+0 28544300
+
+fl=~
+fn=<built-in method numpy.core._multiarray_umath.implement_array_function>
+0 1032500
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=amax
+calls=102 2551
+0 15911800
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=amin
+calls=102 2676
+0 16125000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=mean
+calls=102 3231
+0 19878300
+cfl=/usr/lib/python3.8/site-packages/numpy/core/fromnumeric.py
+cfn=std
+calls=102 3343
+0 24086800
+
+fl=~
+fn=<built-in method numpy.geterrobj>
+0 2300
+
+fl=~
+fn=<built-in method numpy.seterrobj>
+0 1800
+
+fl=~
+fn=<built-in method posix.WEXITSTATUS>
+0 15700
+
+fl=~
+fn=<built-in method posix.WIFEXITED>
+0 16300
+
+fl=~
+fn=<built-in method posix.WIFSIGNALED>
+0 17700
+
+fl=~
+fn=<built-in method posix.close>
+0 295900
+
+fl=~
+fn=<built-in method posix.cpu_count>
+0 2500
+
+fl=~
+fn=<built-in method posix.fork>
+0 122983100
+cfl=/usr/lib/python3.8/logging/__init__.py
+cfn=_acquireLock
+calls=12 214
+0 55100
+cfl=/usr/lib/python3.8/logging/__init__.py
+cfn=_releaseLock
+calls=12 223
+0 242600
+
+fl=~
+fn=<built-in method posix.fspath>
+0 2800
+
+fl=~
+fn=<built-in method posix.getpid>
+0 136100
+
+fl=~
+fn=<built-in method posix.pipe>
+0 265700
+
+fl=~
+fn=<built-in method posix.stat>
+0 35300
+
+fl=~
+fn=<built-in method posix.waitpid>
+0 1787700
+
+fl=~
+fn=<built-in method posix.write>
+0 32100
+
+fl=~
+fn=<function Random.seed at 0x7fdf1927a8b0>
+0 18400
+
+fl=~
+fn=<method '__enter__' of '_multiprocessing.SemLock' objects>
+0 7800
+
+fl=~
+fn=<method '__enter__' of '_thread.lock' objects>
+0 94400
+
+fl=~
+fn=<method '__exit__' of '_multiprocessing.SemLock' objects>
+0 4600
+
+fl=~
+fn=<method '__exit__' of '_thread.lock' objects>
+0 78300
+
+fl=~
+fn=<method 'acquire' of '_multiprocessing.SemLock' objects>
+0 8895700
+
+fl=~
+fn=<method 'acquire' of '_thread.RLock' objects>
+0 23200
+
+fl=~
+fn=<method 'acquire' of '_thread.lock' objects>
+0 11275180500
+
+fl=~
+fn=<method 'add' of 'set' objects>
+0 48500
+
+fl=~
+fn=<method 'append' of 'collections.deque' objects>
+0 60600
+
+fl=~
+fn=<method 'append' of 'list' objects>
+0 379000200
+
+fl=~
+fn=<method 'bit_length' of 'int' objects>
+0 318079800
+
+fl=~
+fn=<method 'choice' of 'numpy.random.mtrand.RandomState' objects>
+0 193895000
+cfl=/usr/lib/python3.8/site-packages/numpy/core/_dtype.py
+cfn=_name_get
+calls=12379 333
+0 281936200
+
+fl=~
+fn=<method 'copy' of 'dict' objects>
+0 187500
+
+fl=~
+fn=<method 'disable' of '_lsprof.Profiler' objects>
+0 1200
+
+fl=~
+fn=<method 'discard' of 'set' objects>
+0 34300
+
+fl=~
+fn=<method 'dump' of '_pickle.Pickler' objects>
+0 15600
+
+fl=~
+fn=<method 'endswith' of 'str' objects>
+0 1700
+
+fl=~
+fn=<method 'extend' of 'list' objects>
+0 1852671400
+
+fl=~
+fn=<method 'flush' of '_io.TextIOWrapper' objects>
+0 105500
+
+fl=~
+fn=<method 'format' of 'str' objects>
+0 16742500
+
+fl=~
+fn=<method 'get' of 'dict' objects>
+0 1214910700
+
+fl=~
+fn=<method 'getbuffer' of '_io.BytesIO' objects>
+0 6800
+
+fl=~
+fn=<method 'getrandbits' of '_random.Random' objects>
+0 397467500
+
+fl=~
+fn=<method 'insert' of 'list' objects>
+0 107600
+
+fl=~
+fn=<method 'items' of 'dict' objects>
+0 656891400
+
+fl=~
+fn=<method 'join' of 'str' objects>
+0 118400
+cfl=/usr/lib/python3.8/multiprocessing/process.py
+cfn=<genexpr>
+calls=24 94
+0 61200
+
+fl=~
+fn=<method 'keys' of 'dict' objects>
+0 1000
+
+fl=~
+fn=<method 'locked' of '_thread.lock' objects>
+0 3900
+
+fl=~
+fn=<method 'pop' of 'dict' objects>
+0 1200
+
+fl=~
+fn=<method 'pop' of 'list' objects>
+0 1846925500
+
+fl=~
+fn=<method 'put' of '_queue.SimpleQueue' objects>
+0 298200
+
+fl=~
+fn=<method 'random' of '_random.Random' objects>
+0 68940400
+
+fl=~
+fn=<method 'read' of '_io.BufferedReader' objects>
+0 60100
+
+fl=~
+fn=<method 'reduce' of 'numpy.ufunc' objects>
+0 32978900
+
+fl=~
+fn=<method 'release' of '_thread.RLock' objects>
+0 68600
+
+fl=~
+fn=<method 'release' of '_thread.lock' objects>
+0 58500
+
+fl=~
+fn=<method 'replace' of 'str' objects>
+0 20500
+
+fl=~
+fn=<method 'rpartition' of 'str' objects>
+0 48900
+
+fl=~
+fn=<method 'rstrip' of 'str' objects>
+0 11800
+
+fl=~
+fn=<method 'uniform' of 'numpy.random.mtrand.RandomState' objects>
+0 9508600
+
+fl=~
+fn=<method 'update' of 'dict' objects>
+0 187346200
+
+fl=~
+fn=<method 'values' of 'dict' objects>
+0 3800
+
