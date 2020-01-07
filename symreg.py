@@ -10,6 +10,9 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
 from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler 
+from sklearn.linear_model import LinearRegression
+from scipy.stats import pearsonr
 import multiprocessing
 import timeit
 import time
@@ -42,24 +45,18 @@ with open(data_path, 'r') as h:
     test     = info['metadata']['test_rows']
     target   = info['metadata']['target']
 
+print('target = ', target)
 # load data
 df = pd.read_csv(os.path.join(dir_name, csv_path), sep=',')
 
 X = df.loc[:, df.columns != target].to_numpy()
 y = df[target].to_numpy()
 
-#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=1234)
-
 X_train = X[training['start']:training['end']]
 X_test = X[test['start']:test['end']]
 
 y_train = y[training['start']:training['end']]
 y_test = y[test['start']:test['end']]
-
-# standardize the data since DEAP has some problems with some datasets
-# scaler = StandardScaler()
-# X_train = scaler.fit_transform(X_train)
-# X_test = scaler.transform(X_test)
 
 rows, cols = X_train.shape
 
@@ -77,6 +74,34 @@ pset.addPrimitive(np.log, 1, name="vlog")
 pset.addEphemeralConstant("rand101", lambda: np.random.uniform(-1.0, 1.0)) #may be unable to pickle...
 
 
+def limit_range(values):
+    try: 
+        min_ = values[np.isfinite(values)].min() 
+        max_ = values[np.isfinite(values)].max() 
+    except ValueError:
+        return np.repeat(0., len(values))
+
+    mid_ = (min_ + max_) / 2.
+    np.nan_to_num(values, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
+
+    np.clip(values, min_, max_, out=values)
+    return values
+
+
+def r2stat(y_train, y_pred):
+    try:
+        r = pearsonr(y_train, y_pred)[0]
+        fit = r * r 
+    except ValueError:
+        fit = 0.
+
+    if ~np.isfinite(fit):
+        fit = 0.
+
+    fit = max(min(fit, 1.), 0.) 
+    return fit
+
+
 def evaluate(individual):
     # Transform the tree expression in a callable function
     func = gp.compile(expr=individual, pset=pset)
@@ -85,29 +110,14 @@ def evaluate(individual):
         warnings.simplefilter("ignore") # comment out when debugging
         
         y_pred = func(*X_train.T)
-        
+
         if np.isscalar(y_pred):
-            #y_pred = np.repeat(y_pred, rows)
-            return -1000.,
+            return 0.,
         
-        try: 
-            min_ = y_pred[np.isfinite(y_pred)].min() 
-            max_ = y_pred[np.isfinite(y_pred)].max() 
-        except ValueError:
-            return -1000.,
-
-        mid_ = (min_ + max_) / 2
-        np.nan_to_num(y_pred, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
-
-        fit = r2_score(y_train, y_pred)
-        
-        if ~np.isfinite(fit):
-            fit = -1000.,
-
-        fit = np.clip(fit, -1000., 1.) #expensife for a single float
-        
+        y_pred = limit_range(y_pred)
+        fit = r2stat(y_train, y_pred)
         return fit,
-
+ 
     
 def evolve():
     np.seterr(all='ignore')
@@ -120,9 +130,9 @@ def evolve():
     maxLength = 50
     
     toolbox = base.Toolbox()
-    #from multiprocessing.pool import Pool
-    #pool = Pool()
-    #toolbox.register("map", pool.map)
+    from multiprocessing.pool import Pool
+    pool = Pool()
+    toolbox.register("map", pool.map)
     
     toolbox.register("expr", gp.genHalfAndHalf, pset=pset, min_=1, max_=5)
     toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.expr)
@@ -170,6 +180,7 @@ def evolve():
 
 
 if __name__ == "__main__":
+    np.random.seed(0)
     t0 = time.time()
     pop, stats, hof = evolve()
     t1 = time.time()
@@ -180,24 +191,21 @@ if __name__ == "__main__":
     y_pred_train = func(*X_train.T)
     y_pred_test  = func(*X_test.T)
 
-    try: 
-        min_ = y_pred_train[np.isfinite(y_pred_train)].min() 
-        max_ = y_pred_train[np.isfinite(y_pred_train)].max() 
-        mid_ = (min_ + max_) / 2.
-    except ValueError:
-        mid_ = 0.
-    np.nan_to_num(y_pred_train, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
+    y_pred_train = limit_range(y_pred_train)
+    y_pred_test = limit_range(y_pred_test)
 
-    try: 
-        min_ = y_pred_test[np.isfinite(y_pred_test)].min() 
-        max_ = y_pred_test[np.isfinite(y_pred_test)].max() 
-        mid_ = (min_ + max_) / 2.
-    except ValueError:
-        mid_ = 0.
-    np.nan_to_num(y_pred_test, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
+    # use a linear regressor to perform linear scaling of the predicted values 
+    lr = LinearRegression()
+    lr.fit(y_pred_train.reshape(-1, 1), y_train.reshape(-1, 1))
 
-    r2_train     = r2_score(y_train, y_pred_train)
-    r2_test      = r2_score(y_test, y_pred_test)
+    y_pred_train = np.squeeze(lr.predict(y_pred_train.reshape(-1, 1)))
+    y_pred_test  = np.squeeze(lr.predict(y_pred_test.reshape(-1, 1)))
+
+    print(y_pred_train.shape)
+
+
+    r2_train     = r2stat(y_train, y_pred_train)
+    r2_test      = r2stat(y_test, y_pred_test)
 
     mse_train    = mean_squared_error(y_train, y_pred_train)
     mse_test     = mean_squared_error(y_test, y_pred_test)
