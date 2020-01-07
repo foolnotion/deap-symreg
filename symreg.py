@@ -45,7 +45,6 @@ with open(data_path, 'r') as h:
     test     = info['metadata']['test_rows']
     target   = info['metadata']['target']
 
-print('target = ', target)
 # load data
 df = pd.read_csv(os.path.join(dir_name, csv_path), sep=',')
 
@@ -121,7 +120,6 @@ def evaluate(individual):
     
 def evolve():
     np.seterr(all='ignore')
-    random.seed(318)
         
     creator.create("FitnessMin", base.Fitness, weights=(1.0,))
     creator.create("Individual", gp.PrimitiveTree, fitness=creator.FitnessMin)
@@ -180,7 +178,6 @@ def evolve():
 
 
 if __name__ == "__main__":
-    np.random.seed(0)
     t0 = time.time()
     pop, stats, hof = evolve()
     t1 = time.time()
@@ -200,9 +197,6 @@ if __name__ == "__main__":
 
     y_pred_train = np.squeeze(lr.predict(y_pred_train.reshape(-1, 1)))
     y_pred_test  = np.squeeze(lr.predict(y_pred_test.reshape(-1, 1)))
-
-    print(y_pred_train.shape)
-
 
     r2_train     = r2stat(y_train, y_pred_train)
     r2_test      = r2stat(y_test, y_pred_test)
