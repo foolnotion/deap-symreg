@@ -9,6 +9,7 @@ import pandas as pd
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score
 from sklearn.metrics import mean_squared_error
+from sklearn.preprocessing import StandardScaler
 import multiprocessing
 import timeit
 import time
@@ -39,12 +40,13 @@ with open(data_path, 'r') as h:
     csv_path = info['metadata']['filename']
     training = info['metadata']['training_rows']
     test     = info['metadata']['test_rows']
+    target   = info['metadata']['target']
 
 # load data
 df = pd.read_csv(os.path.join(dir_name, csv_path), sep=',')
-#print df
-X = df.iloc[:,:-1].to_numpy()
-y = df.iloc[:,-1].to_numpy()
+
+X = df.loc[:, df.columns != target].to_numpy()
+y = df[target].to_numpy()
 
 #X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state=1234)
 
@@ -54,6 +56,11 @@ X_test = X[test['start']:test['end']]
 y_train = y[training['start']:training['end']]
 y_test = y[test['start']:test['end']]
 
+# standardize the data since DEAP has some problems with some datasets
+# scaler = StandardScaler()
+# X_train = scaler.fit_transform(X_train)
+# X_test = scaler.transform(X_test)
+
 rows, cols = X_train.shape
 
 # set static height limit for all generated trees
@@ -62,7 +69,7 @@ pset.addPrimitive(np.add, 2, name="vadd")
 pset.addPrimitive(np.subtract, 2, name="vsub")
 pset.addPrimitive(np.multiply, 2, name="vmul")
 pset.addPrimitive(np.divide, 2, name="vdiv")
-pset.addPrimitive(np.negative, 1, name="vneg")
+#pset.addPrimitive(np.negative, 1, name="vneg")
 pset.addPrimitive(np.cos, 1, name="vcos")
 pset.addPrimitive(np.sin, 1, name="vsin")
 pset.addPrimitive(np.exp, 1, name="vexp")
@@ -80,16 +87,16 @@ def evaluate(individual):
         y_pred = func(*X_train.T)
         
         if np.isscalar(y_pred):
-            y_pred = np.repeat(y_pred, rows)
-        
-        min_ = np.nanmin(y_pred)
-        max_ = np.nanmax(y_pred)
-        
-        if ~np.isfinite(min_) or ~np.isfinite(max_):
+            #y_pred = np.repeat(y_pred, rows)
             return -1000.,
         
+        try: 
+            min_ = y_pred[np.isfinite(y_pred)].min() 
+            max_ = y_pred[np.isfinite(y_pred)].max() 
+        except ValueError:
+            return -1000.,
+
         mid_ = (min_ + max_) / 2
-        # y_pred[np.where(~np.isfinite(y_pred))] = mid_ # using older numpy so manually doing nan_to_num
         np.nan_to_num(y_pred, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
 
         fit = r2_score(y_train, y_pred)
@@ -117,7 +124,7 @@ def evolve():
     #pool = Pool()
     #toolbox.register("map", pool.map)
     
-    toolbox.register("expr", gp.genHalfAndHalf, pset=pset, min_=1, max_=maxHeight)
+    toolbox.register("expr", gp.genHalfAndHalf, pset=pset, min_=1, max_=5)
     toolbox.register("individual", tools.initIterate, creator.Individual, toolbox.expr)
     toolbox.register("population", tools.initRepeat, list, toolbox.individual)
     toolbox.register("evaluate", evaluate)
@@ -146,7 +153,7 @@ def evolve():
     pop = toolbox.population(n=1000)
     hof = tools.HallOfFame(1)
 
-    stats_fit = tools.Statistics(key=lambda ind: ind.fitness.values)
+    stats_fit  = tools.Statistics(key=lambda ind: ind.fitness.values)
     stats_size = tools.Statistics(key=len)
 
     mstats = tools.MultiStatistics(fitness=stats_fit, size=stats_size)
@@ -155,7 +162,7 @@ def evolve():
     mstats.register("min", np.min)
     mstats.register("max", np.max)
 
-    eaElite(pop, toolbox, cxpb=1, mutpb=0.25, ngen=1000, nelite=1, stats=mstats, halloffame=hof, verbose=True)
+    eaElite(pop, toolbox, cxpb=1, mutpb=0.25, ngen=1000, nelite=1, stats=mstats, halloffame=hof, verbose=False)
 
     # print("\nBest Hof:\n%s"%hof[0])
 
@@ -172,6 +179,22 @@ if __name__ == "__main__":
 
     y_pred_train = func(*X_train.T)
     y_pred_test  = func(*X_test.T)
+
+    try: 
+        min_ = y_pred_train[np.isfinite(y_pred_train)].min() 
+        max_ = y_pred_train[np.isfinite(y_pred_train)].max() 
+        mid_ = (min_ + max_) / 2.
+    except ValueError:
+        mid_ = 0.
+    np.nan_to_num(y_pred_train, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
+
+    try: 
+        min_ = y_pred_test[np.isfinite(y_pred_test)].min() 
+        max_ = y_pred_test[np.isfinite(y_pred_test)].max() 
+        mid_ = (min_ + max_) / 2.
+    except ValueError:
+        mid_ = 0.
+    np.nan_to_num(y_pred_test, copy=False, nan=mid_, posinf=mid_, neginf=mid_)
 
     r2_train     = r2_score(y_train, y_pred_train)
     r2_test      = r2_score(y_test, y_pred_test)
