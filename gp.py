@@ -1,12 +1,13 @@
 import random
 import numpy as np
+from inspect import isclass
 
 from deap import algorithms
 from deap import tools
 from deap import gp
 
 
-def genBalanced(pset_, depth_, dist_, *dist_args_, type_=None):
+def genBalanced(pset_, depth_, dist_, dist_args_, type_=None):
     length_ = int(np.round(dist_(*dist_args_)))
     return btc(pset_, depth_, length_, type_)
 
@@ -71,7 +72,10 @@ def sampleChild(pset_, minArity_, maxArity_, type_=None):
         terminals = pset_.terminals[type_]
         p = 1 / (len(candidates) + 1)
         if np.random.binomial(1, p, 1):
-            return random.choice(terminals)
+            term = random.choice(terminals)
+            if isclass(term):
+                term = term()
+            return term
 
     return random.choice(candidates)
 
