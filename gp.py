@@ -22,15 +22,18 @@ def btc(pset_, depth_, length_, type_=None):
     minFunctionArity = min(arities)
     maxFunctionArity = max(arities)
 
+    # adapt length to restrictions of the primitive set
+    if length_ % 2 == 0 and minFunctionArity > 1:
+        length_ = length_ + 1 if np.random.random_sample(1) > 0.5 else length_ - 1
+
     targetLength = length_ - 1 # don't count the root node 
     maxFunctionArity = min(maxFunctionArity, targetLength)
     minFunctionArity = min(minFunctionArity, targetLength)
-
-    # it doesn't really make sense to have a terminal as the tree root
     root = sampleChild(pset_, minFunctionArity, maxFunctionArity, type_) 
 
     # inner lists of the form [node, depth, childIndex] 
-    # childIndex is used to transform from breadth to postfix later
+    # childIndex is only used at the end to transform 
+    # the representation from breadth to prefix
     expr.append([root, 0, 1])
 
     openSlots = root.arity 
@@ -48,11 +51,7 @@ def btc(pset_, depth_, length_, type_=None):
                 expr[i][2] = len(expr)
 
             expr.append([child, childDepth, 0])
-
-            try: 
-                openSlots += getArity(child) 
-            except TypeError:
-                pass
+            openSlots += getArity(child) 
 
     nodes = breadthToPrefix(expr)
     return nodes
