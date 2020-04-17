@@ -5,7 +5,7 @@ in
     doCheck = false;
 #    buildInputs = with pkgs; [ _python37 ];
 
-    buildInputs = with pkgs; [ (pkgs.python37.withPackages (ps: with ps; [ pip numpy pandas cython scikitlearn pyprof2calltree memory_profiler ])) ];
+    buildInputs = with pkgs; [ (pkgs.python37.withPackages (ps: with ps; [ pip numpy pandas cython scikitlearn pyprof2calltree memory_profiler deap ])) ];
     
     shellHook = ''
             alias pip="PIP_PREFIX='$(pwd)/_build/pip_packages' \pip"
